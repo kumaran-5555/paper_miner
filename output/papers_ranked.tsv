@@ -1,0 +1,584 @@
+rank	score	topic	industry	production	impact	reels_fit	title	year	citations	venue	companies	link
+1	0.698	core	1.00	0.25	0.65	0.20	Contrastive Cross-domain Recommendation in Matching	2022	98	KDD	Tencent (China)	https://doi.org/10.1145/3534678.3539125
+2	0.660	adjacent	0.75	1.00	0.18	0.40	Lion: A GPU-Accelerated Online Serving System for Web-Scale Recommendation at Baidu	2022	5	KDD	Baidu (China)	https://doi.org/10.1145/3534678.3539058
+3	0.646	core	1.00	0.25	0.55	0.20	Hierarchical Reinforcement Learning for Integrated Recommendation	2021	78	AAAI	Tencent (China)	https://doi.org/10.1609/aaai.v35i5.16580
+4	0.600	core	0.75	0.25	0.67	0.00	Learning to Denoise Unreliable Interactions for Graph Collaborative Filtering	2022	106	SIGIR	Alibaba Group (China); Alibaba Group (United States)	https://doi.org/10.1145/3477495.3531889
+5	0.596	core	1.00	0.00	0.66	0.00	CIRS: Bursting Filter Bubbles by Counterfactual Interactive Recommender System	2023	85	ACM TOIS	Kuaishou (China)	https://doi.org/10.1145/3594871
+6	0.583	adjacent	0.75	0.25	0.90	0.20	Hybrid Transformer with Multi-level Fusion for Multimodal Knowledge Graph Completion	2022	211	SIGIR	Alibaba Group (China)	https://doi.org/10.1145/3477495.3531992
+7	0.582	core	1.00	0.25	0.00	0.40	CroPS: Improving Dense Retrieval with Cross-Perspective Positive Samples in Short-Video Search	2026	0	AAAI	Kuaishou (China)	https://doi.org/10.1609/aaai.v40i40.40700
+8	0.574	core	1.00	0.00	0.41	0.20	Cross-Task Knowledge Distillation in Multi-Task Recommendation	2022	35	AAAI	Tencent (China)	https://doi.org/10.1609/aaai.v36i4.20352
+9	0.572	core	0.75	0.25	0.35	0.20	Is News Recommendation a Sequential Recommendation Task?	2022	23	SIGIR	Microsoft Research Asia (China)	https://doi.org/10.1145/3477495.3531862
+10	0.569	core	1.00	0.00	0.38	0.20	LLMEmb: Large Language Model Can Be a Good Embedding Generator for Sequential Recommendation	2025	17	AAAI	Tencent (China)	https://doi.org/10.1609/aaai.v39i11.33327
+11	0.562	adjacent	1.00	0.00	0.60	0.20	Deconfounding Duration Bias in Watch-time Prediction for Video Recommendation	2022	82	KDD	Kuaishou (China)	https://doi.org/10.1145/3534678.3539092
+12	0.562	core	0.75	0.25	0.36	0.20	TiCoSeRec: Augmenting Data to Uniform Sequences by Time Intervals for Effective Recommendation	2023	23	IEEE TKDE	Alibaba Group (China)	https://doi.org/10.1109/tkde.2023.3324312
+13	0.561	core	1.00	0.00	0.45	0.00	Triple Sequence Learning for Cross-domain Recommendation	2023	37	ACM TOIS	Tencent (China)	https://doi.org/10.1145/3638351
+14	0.557	core	1.00	0.00	0.12	0.40	Tricolore: Multi-Behavior User Profiling for Enhanced Candidate Generation in Recommender Systems	2025	2	IEEE TKDE	Tencent (China)	https://doi.org/10.1109/tkde.2025.3558503
+15	0.554	adjacent	0.75	0.50	0.45	0.00	TwHIN: Embedding the Twitter Heterogeneous Information Network for Personalized Recommendation	2022	42	KDD	Twitter (United States)	https://doi.org/10.1145/3534678.3539080
+16	0.544	adjacent	0.75	0.75	0.07	0.00	Efficient and Deployable Knowledge Infusion for Open-World Recommendations via Large Language Models	2025	1	ACM RecSys	Huawei Technologies (China); Huawei Technologies (Sweden); Huawei Technologies (United States); Huawei Technologies (United Kingdom)	https://doi.org/10.1145/3725894
+17	0.543	core	1.00	0.00	0.11	0.20	eCom'22: The SIGIR 2022 Workshop on eCommerce	2022	2	SIGIR	Adobe Systems (United States); Lowe's (United States); Amazon (United States)	https://doi.org/10.1145/3477495.3531701
+18	0.541	core	0.75	0.00	0.43	0.20	Choosing the Best of Both Worlds	2022	39	WSDM	Google (United Kingdom); Telefonica Research and Development	https://doi.org/10.1145/3488560.3498471
+19	0.541	core	0.75	0.00	0.69	0.00	KR-GCN: Knowledge-Aware Reasoning with Graph Convolution Network for Explainable Recommendation	2022	112	ACM TOIS	Alibaba Group (China)	https://doi.org/10.1145/3511019
+20	0.540	core	0.75	0.25	0.22	0.00	KoMen: Domain Knowledge Guided Interaction Recommendation for Emerging Scenarios	2022	8	TheWebConf / WWW	Alibaba Group (China); Alibaba Group (United States)	https://doi.org/10.1145/3485447.3512177
+21	0.536	adjacent	1.00	0.25	0.27	0.00	Mixture of Virtual-Kernel Experts for Multi-Objective User Profile Modeling	2022	12	KDD	Tencent (China)	https://doi.org/10.1145/3534678.3539062
+22	0.529	core	0.75	0.00	0.36	0.40	When to Show a Suggestion? Integrating Human Feedback in AI-Assisted Programming	2024	19	AAAI	Microsoft Research (United Kingdom)	https://doi.org/10.1609/aaai.v38i9.28878
+23	0.527	adjacent	1.00	0.00	0.56	0.20	On the Effectiveness of Sampled Softmax Loss for Item Recommendation	2023	61	ACM TOIS	Tencent (China)	https://doi.org/10.1145/3637061
+24	0.523	core	0.75	0.00	0.43	0.20	How Am I Doing?: Evaluating Conversational Search Systems Offline	2021	43	ACM TOIS	Photon Spot (United States); Amazon (United Kingdom)	https://doi.org/10.1145/3451160
+25	0.523	core	0.75	0.00	0.43	0.20	Multi-interest Diversification for End-to-end Sequential Recommendation	2021	42	ACM TOIS	Alibaba Group (China); Ahold Delhaize (Netherlands)	https://doi.org/10.1145/3475768
+26	0.522	adjacent	0.75	0.00	0.38	0.80	RankFlow	2022	29	SIGIR	Huawei Technologies (China)	https://doi.org/10.1145/3477495.3532050
+27	0.522	adjacent	1.00	0.00	0.57	0.20	Plug-In Diffusion Model for Sequential Recommendation	2024	50	AAAI	Tencent (China)	https://doi.org/10.1609/aaai.v38i8.28736
+28	0.521	adjacent	0.75	0.25	0.48	0.20	MAVE	2022	49	WSDM	Google (United States)	https://doi.org/10.1145/3488560.3498377
+29	0.521	core	0.75	0.00	0.23	0.20	Multi-Interest Multi-Round Conversational Recommendation System with Fuzzy Feedback Based User Simulator	2023	8	ACM RecSys	Jingdong (China)	https://doi.org/10.1145/3616379
+30	0.516	core	0.75	0.25	0.26	0.00	D3: A Methodological Exploration of Domain Division, Modeling, and Balance in Multi-Domain Recommendations	2024	10	AAAI	Huawei Technologies (Sweden)	https://doi.org/10.1609/aaai.v38i8.28699
+31	0.515	adjacent	0.75	0.25	0.63	0.00	Multi-Behavior Sequential Transformer Recommender	2022	91	SIGIR	Huawei Technologies (China)	https://doi.org/10.1145/3477495.3532023
+32	0.514	adjacent	0.75	0.00	0.90	0.00	Contrastive Meta Learning with Behavior Multiplicity for Recommendation	2022	199	WSDM	Baidu (China)	https://doi.org/10.1145/3488560.3498527
+33	0.514	adjacent	1.00	0.00	0.44	0.00	Formalizing Multimedia Recommendation through Multimodal Deep Learning	2024	30	ACM RecSys	Amazon (Germany)	https://doi.org/10.1145/3662738
+34	0.510	core	0.75	0.25	0.00	0.00	Introduction to the Special Issue on Large Language Models for Recommender Systems	2025	0	ACM RecSys	Amazon (United States)	https://doi.org/10.1145/3721299
+35	0.505	core	0.75	0.00	0.32	0.20	Result Diversification in Search and Recommendation: A Survey	2024	15	IEEE TKDE	Microsoft (Canada); Microsoft Research Montréal (Canada)	https://doi.org/10.1109/tkde.2024.3382262
+36	0.502	core	0.75	0.00	0.34	0.20	A Hybrid Bandit Framework for Diversified Recommendation	2021	23	AAAI	Alibaba Group (United States)	https://doi.org/10.1609/aaai.v35i5.16524
+37	0.499	adjacent	1.00	0.00	0.54	0.00	A Multi-Objective Optimization Framework for Multi-Stakeholder Fairness-Aware Recommendation	2022	66	ACM TOIS	Microsoft (Canada); Microsoft Research Montréal (Canada); Google (Canada)	https://doi.org/10.1145/3564285
+38	0.498	core	0.75	0.00	0.32	0.00	Triangle Graph Interest Network for Click-through Rate Prediction	2022	18	WSDM	Alibaba Group (China)	https://doi.org/10.1145/3488560.3498458
+39	0.498	adjacent	1.00	0.00	0.42	0.20	STEM: Unleashing the Power of Embeddings for Multi-Task Recommendation	2024	27	AAAI	Tencent (China)	https://doi.org/10.1609/aaai.v38i8.28749
+40	0.491	adjacent	1.00	0.25	0.18	0.00	A Contrastive Pretrain Model with Prompt Tuning for Multi-center Medication Recommendation	2025	4	ACM TOIS	Tencent (China)	https://doi.org/10.1145/3706631
+41	0.490	core	1.00	0.00	0.00	0.00	Multi-Interest Recommendation: A Survey	2026	0	ACM TOIS	Tencent (China)	https://doi.org/10.1145/3789510
+42	0.489	core	0.75	0.00	0.37	0.00	Bursting Scientific Filter Bubbles: Boosting Innovation via Novel Author Discovery	2022	26	ACM CHI	Microsoft (United States)	https://doi.org/10.1145/3491102.3501905
+43	0.488	adjacent	0.75	0.00	0.54	0.20	FeedRec: News Feed Recommendation with Various User Feedbacks	2022	67	TheWebConf / WWW	Microsoft Research Asia (China)	https://doi.org/10.1145/3485447.3512082
+44	0.481	adjacent	1.00	0.25	0.00	0.20	When Top-ranked Recommendations Fail: Modeling Multi-Granular Negative Feedback for Explainable and Robust Video Recommendation	2026	0	AAAI	Tencent (China)	https://doi.org/10.1609/aaai.v40i24.39114
+45	0.481	adjacent	1.00	0.00	0.42	0.00	Cross-domain knowledge graph chiasmal embedding for multi-domain item-item recommendation	2022	37	IEEE TKDE	Tencent (China); Jingdong (China)	https://doi.org/10.1109/tkde.2022.3151986
+46	0.476	adjacent	0.75	0.25	0.46	0.00	Coarse-to-Fine Knowledge-Enhanced Multi-Interest Learning Framework for Multi-Behavior Recommendation	2023	39	ACM TOIS	Huawei Technologies (Canada); Huawei Technologies (China)	https://doi.org/10.1145/3606369
+47	0.476	core	0.75	0.00	0.29	0.00	Toward Comprehensive User and Item Representations via Three-tier Attention Network	2021	15	ACM TOIS	Microsoft Research Asia (China)	https://doi.org/10.1145/3446341
+48	0.475	adjacent	1.00	0.00	0.39	0.00	Incorporating Link Prediction into Multi-Relational Item Graph Modeling for Session-based Recommendation	2021	33	IEEE TKDE	Tencent (China)	https://doi.org/10.1109/tkde.2021.3111436
+49	0.474	adjacent	1.00	0.00	0.27	0.00	On Sampling Collaborative Filtering Datasets	2022	12	WSDM	Meta (United States)	https://doi.org/10.1145/3488560.3498439
+50	0.474	core	0.50	0.00	0.50	0.00	Edge-cloud-enabled matrix factorization for diversified APIs recommendation in mashup creation	2021	61	TheWebConf / WWW	Smart Homes; China Telecom (China); China Telecom	https://doi.org/10.1007/s11280-021-00943-x
+51	0.472	adjacent	1.00	0.00	0.07	0.20	Curriculum-scheduled knowledge distillation from multiple pre-trained teachers for multi-domain sequential recommendation	2025	1	TheWebConf / WWW	Tencent (China)	https://doi.org/10.1007/s11280-025-01381-9
+52	0.470	adjacent	0.75	0.00	0.43	0.20	Distributionally-robust Recommendations for Improving Worst-case User Experience	2022	39	TheWebConf / WWW	Google (United States)	https://doi.org/10.1145/3485447.3512255
+53	0.469	adjacent	0.75	0.00	0.54	0.00	A Bi-Step Grounding Paradigm for Large Language Models in Recommendation Systems	2025	32	ACM RecSys	Huawei Technologies (China)	https://doi.org/10.1145/3716393
+54	0.467	adjacent	0.75	0.25	0.14	0.20	Exploration in Recommender Systems	2022	3	WSDM	Google (United States)	https://doi.org/10.1145/3488560.3510009
+55	0.467	adjacent	0.75	0.25	0.21	0.00	Automatic Controllable Product Copywriting for E-Commerce	2022	7	KDD	Jingdong (China)	https://doi.org/10.1145/3534678.3539171
+56	0.466	core	0.75	0.00	0.22	0.00	Toward Bias-Agnostic Recommender Systems: A Universal Generative Framework	2024	7	ACM TOIS	Baidu (China)	https://doi.org/10.1145/3655617
+57	0.463	adjacent	1.00	0.00	0.16	0.20	Negative Sampling in Recommendation: A Survey and Future Directions	2026	3	ACM TOIS	Tencent (China)	https://doi.org/10.1145/3793855
+58	0.462	core	0.50	0.00	0.58	0.00	You Complete Me: Human-AI Teams and Complementary Expertise	2022	76	ACM CHI	Toyota Industries (United States)	https://doi.org/10.1145/3491102.3517791
+59	0.461	core	0.50	0.25	0.07	0.00	Revisiting LightGCN: Unexpected Inflexibility, Inconsistency, and A Remedy Towards Improved Recommendation	2025	1	ACM RecSys	Korea Kacoh (South Korea)	https://doi.org/10.1145/3760763
+60	0.460	adjacent	0.75	0.00	0.52	0.00	Multiple Choice Questions based Multi-Interest Policy Learning for Conversational Recommendation	2022	60	TheWebConf / WWW	Jingdong (China)	https://doi.org/10.1145/3485447.3512088
+61	0.459	adjacent	0.75	0.25	0.35	0.00	Bilateral Filtering Graph Convolutional Network for Multi-relational Social Recommendation in the Power-law Networks	2021	25	ACM TOIS	NetEase (China)	https://doi.org/10.1145/3469799
+62	0.458	core	0.50	0.00	0.40	0.00	Graph Neural Transport Networks with Non-local Attentions for Recommender Systems	2022	32	TheWebConf / WWW	Visa (United States)	https://doi.org/10.1145/3485447.3512162
+63	0.455	adjacent	0.75	0.25	0.14	0.00	ANDEA: Anomaly and Novelty Detection, Explanation, and Accommodation	2022	3	KDD	Amazon (Germany)	https://doi.org/10.1145/3534678.3542910
+64	0.451	core	0.50	0.00	0.32	0.00	Distributionally-Informed Recommender System Evaluation	2023	17	ACM RecSys	Photon Spot (United States)	https://doi.org/10.1145/3613455
+65	0.451	adjacent	0.75	0.25	0.00	0.40	Think before Recommend: Unleashing the Latent Reasoning Power for Sequential Recommendation	2026	0	IEEE TKDE	Alibaba Group (China)	https://doi.org/10.1109/tkde.2026.3694421
+66	0.450	adjacent	0.75	0.25	0.29	0.00	Graph-Grounded Goal Planning for Conversational Recommendation	2022	15	IEEE TKDE	Baidu (China)	https://doi.org/10.1109/tkde.2022.3147210
+67	0.448	adjacent	1.00	0.00	0.07	0.20	Vague Preference Policy Learning for Conversational Recommendation	2025	1	ACM TOIS	Jingdong (China)	https://doi.org/10.1145/3717831
+68	0.448	adjacent	0.75	0.00	0.52	0.00	Investigating Accuracy-Novelty Performance for Graph-based Collaborative Filtering	2022	60	SIGIR	NetEase (China)	https://doi.org/10.1145/3477495.3532005
+69	0.447	adjacent	0.75	0.00	0.44	0.00	Cross Pairwise Ranking for Unbiased Item Recommendation	2022	40	TheWebConf / WWW	Huawei Technologies (China)	https://doi.org/10.1145/3485447.3512010
+70	0.446	adjacent	0.50	0.00	0.99	0.00	Fused Matrix Factorization with Geographical and Social Influence in Location-Based Social Networks	2021	574	AAAI	AT&T (United States)	https://doi.org/10.1609/aaai.v26i1.8100
+71	0.446	adjacent	0.50	0.50	0.33	0.00	RecRanker: Instruction Tuning Large Language Model as Ranker for Top-k Recommendation	2024	16	ACM TOIS	Group Sense (China)	https://doi.org/10.1145/3705728
+72	0.445	adjacent	0.00	0.75	0.69	0.20	Tenrec: A Large-scale Multipurpose Benchmark Dataset for Recommender Systems	2022	110	NeurIPS		https://doi.org/10.48550/arXiv.2210.10629
+73	0.444	adjacent	1.00	0.00	0.20	0.00	ProbSky: Efficient Computation of Probabilistic Skyline Queries over Distributed Data	2022	6	IEEE TKDE	Meta (United States)	https://doi.org/10.1109/tkde.2022.3151740
+74	0.443	adjacent	1.00	0.00	0.22	0.00	Curriculum Conditioned Diffusion for Multimodal Recommendation	2025	6	AAAI	Tencent (China)	https://doi.org/10.1609/aaai.v39i12.33422
+75	0.442	core	0.75	0.00	0.00	0.00	Report on the 1st Workshop on Human-Centered Recommender Systems (HCRS 2025) at TheWebConf 2025	2025	0	SIGIR	Amazon (United States)	https://doi.org/10.1145/3799914.3799921
+76	0.441	core	0.75	0.00	0.11	0.00	Fair-CDA: Continuous and Directional Augmentation for Group Fairness	2023	2	AAAI	Huawei Technologies (Sweden)	https://doi.org/10.1609/aaai.v37i8.26183
+77	0.441	core	0.00	0.75	0.07	0.00	Determinantal Point Processes Guided Crowd-wise Mixture-of-Experts for Recommendation in Alipay	2024	1	ACM RecSys		https://doi.org/10.1145/3691357
+78	0.441	adjacent	0.75	0.25	0.16	0.00	When Online Meets Offline	2022	4	SIGIR	Alibaba Group (China)	https://doi.org/10.1145/3477495.3531859
+79	0.440	adjacent	0.75	0.00	0.47	0.00	Co-training Disentangled Domain Adaptation Network for Leveraging Popularity Bias in Recommenders	2022	47	SIGIR	Alibaba Group (China)	https://doi.org/10.1145/3477495.3531952
+80	0.437	adjacent	1.00	0.00	0.15	0.00	Implicit Multi-Behavior Generative Recommendation With Mixture of Quantization	2025	3	IEEE TKDE	Tencent (China)	https://doi.org/10.1109/tkde.2025.3572014
+81	0.436	adjacent	0.75	0.00	0.44	0.00	MM-Rec: Visiolinguistic Model Empowered Multimodal News Recommendation	2022	41	SIGIR	Microsoft Research Asia (China)	https://doi.org/10.1145/3477495.3531896
+82	0.435	adjacent	1.00	0.00	0.18	0.00	Multifaceted User Modeling in Recommendation: A Federated Foundation Models Approach	2025	4	AAAI	Kuaishou (China)	https://doi.org/10.1609/aaai.v39i12.33440
+83	0.433	adjacent	0.75	0.25	0.00	0.00	Targeted Training for Multi-organization Recommendation	2023	0	ACM RecSys	Microsoft (United States)	https://doi.org/10.1145/3603508
+84	0.433	core	0.50	0.00	0.24	0.20	A Versatile Framework for Evaluating Ranked Lists in Terms of Group Fairness and Relevance	2023	9	ACM TOIS	Naver (South Korea)	https://doi.org/10.1145/3589763
+85	0.431	adjacent	0.75	0.00	0.49	0.00	Why or Why Not? The Effect of Justification Styles on Chatbot Recommendations	2021	59	ACM TOIS	IBM (United States)	https://doi.org/10.1145/3441715
+86	0.431	adjacent	0.50	0.25	0.40	0.00	Designing the Topology of Graph Neural Networks: A Novel Feature Fusion Perspective	2022	32	TheWebConf / WWW	Lenovo (China)	https://doi.org/10.1145/3485447.3512185
+87	0.430	core	0.50	0.00	0.19	0.00	Efficient Federated Recommender System with Adaptive Model Pruning and Momentum-based Batch Adjustment	2024	5	ACM RecSys	Shanghai Aerospace Automobile Electromechanical (China)	https://doi.org/10.1145/3704267
+88	0.430	core	0.75	0.00	0.00	0.00	CONDEN-FI: Consistency and Diversity Learning-Based Multi-View Unsupervised Feature and Instance Co-Selection	2026	0	IEEE TKDE	Jingdong (China)	https://doi.org/10.1109/tkde.2026.3700726
+89	0.430	adjacent	0.75	0.00	0.33	0.00	TaxoCom: Topic Taxonomy Completion with Hierarchical Discovery of Novel Topic Clusters	2022	20	TheWebConf / WWW	Google (United States)	https://doi.org/10.1145/3485447.3512002
+90	0.430	core	0.00	0.75	0.22	0.00	Pareto Front-Diverse Batch Multi-Objective Bayesian Optimization	2024	7	AAAI		https://doi.org/10.1609/aaai.v38i10.28951
+91	0.428	core	0.00	0.50	0.00	0.40	Balancing the Diversity-Coverage Trade-off in Graph-based Recommendations for Cold-Start Industrial Applications	2026	0	ACM RecSys		https://doi.org/10.1145/3796509
+92	0.426	core	0.00	0.25	0.64	0.00	An Empirical Investigation of Personalization Factors on TikTok	2022	94	TheWebConf / WWW		https://doi.org/10.1145/3485447.3512102
+93	0.424	core	0.50	0.00	0.00	0.20	A Study of Biases in LLM-Generated Musical Taste Profiles for Recommendation	2026	0	ACM RecSys	Sozvezdie (Russia)	https://doi.org/10.1145/3815194
+94	0.424	core	0.50	0.00	0.00	0.20	Rewriting Bias: Automated Rewriting to Reduce Media Bias Polarisation in News Recommender Systems	2025	0	ACM RecSys	Data Fusion International (Ireland)	https://doi.org/10.1145/3767327
+95	0.421	core	0.50	0.00	0.17	0.20	Diversifying Sequential Recommendation with Retrospective and Prospective Transformers	2024	4	ACM TOIS	Hisense (China)	https://doi.org/10.1145/3653016
+96	0.419	adjacent	0.75	0.00	0.30	0.00	Hierarchical Imitation Learning via Subgoal Representation Learning for Dynamic Treatment Recommendation	2022	16	WSDM	Huawei Technologies (China)	https://doi.org/10.1145/3488560.3498535
+97	0.418	core	0.00	0.25	0.51	0.20	User-controllable Recommendation Against Filter Bubbles	2022	58	SIGIR		https://doi.org/10.1145/3477495.3532075
+98	0.413	adjacent	1.00	0.00	0.00	0.00	GDiffMAE: Guided Diffusion Enhanced Mask Graph AutoEncoder for Recommendation	2025	0	IEEE TKDE	Kuaishou (China)	https://doi.org/10.1109/tkde.2025.3611270
+99	0.412	adjacent	0.75	0.00	0.40	0.00	Who You Would Like to Share With? A Study of Share Recommendation in Social E-commerce	2021	36	AAAI	Alibaba Group (United States)	https://doi.org/10.1609/aaai.v35i1.16097
+100	0.411	adjacent	0.75	0.00	0.36	0.00	perCLTV: A General System for Personalized Customer Lifetime Value Prediction in Online Games	2022	25	ACM TOIS	NetEase (China)	https://doi.org/10.1145/3530012
+101	0.407	adjacent	1.00	0.00	0.00	0.00	Learning Multiple User Distributions for Recommendation via Guided Conditional Diffusion	2025	0	AAAI	Kuaishou (China)	https://doi.org/10.1609/aaai.v39i12.33401
+102	0.407	core	0.50	0.00	0.23	0.00	Towards Hierarchical Intent Disentanglement for Bundle Recommendation	2023	8	IEEE TKDE	Ping An (China)	https://doi.org/10.1109/tkde.2023.3329175
+103	0.405	core	0.50	0.00	0.07	0.20	Beyond Accuracy: Decision Transformers for Reward-Driven Multi-Objective Recommendations	2025	1	IEEE TKDE	Telefonica Research and Development	https://doi.org/10.1109/tkde.2025.3582506
+104	0.403	adjacent	0.75	0.25	0.00	0.00	RECOSIM: A Universal, Accurate, and Scalable Simulation Framework for Online Community Recommendations	2025	0	ACM TOIS	Microsoft Research Asia (China)	https://doi.org/10.1145/3768342
+105	0.403	weak	1.00	0.50	0.00	0.00	Generalizing Graph Transformers Across Diverse Graphs and Tasks via Pre-Training	2025	0	IEEE TKDE	Zhipu AI (China); Tencent (China)	https://doi.org/10.1109/tkde.2025.3632394
+106	0.402	core	0.00	0.50	0.14	0.00	Uncovering the Heterogeneous Effects of Preference Diversity on User Activeness: A Dynamic Mixture Model	2022	3	KDD		https://doi.org/10.1145/3534678.3539033
+107	0.401	adjacent	0.75	0.00	0.30	0.00	Causal Distillation for Alleviating Performance Heterogeneity in Recommender Systems	2023	15	IEEE TKDE	Alibaba Group (China)	https://doi.org/10.1109/tkde.2023.3290545
+108	0.401	adjacent	0.75	0.00	0.30	0.00	Personal or General? A Hybrid Strategy with Multi-factors for News Recommendation	2022	16	ACM TOIS	Huawei Technologies (China)	https://doi.org/10.1145/3555373
+109	0.400	core	0.00	0.00	0.45	0.40	Enhancing Recommendation Diversity by Re-ranking with Large Language Models	2024	31	ACM RecSys		https://doi.org/10.1145/3700604
+110	0.399	core	0.00	0.25	0.39	0.20	Positive, Negative and Neutral	2022	31	SIGIR		https://doi.org/10.1145/3477495.3532040
+111	0.397	adjacent	0.00	0.50	0.85	0.00	Wukong: Towards a Scaling Law for Large-Scale Recommendation	2024	121	ICML		https://doi.org/10.48550/arXiv.2403.02545
+112	0.394	core	0.50	0.00	0.00	0.00	Determinantal point process-based new radio unlicensed link scheduling for multi-access edge computing	2022	0	TheWebConf / WWW	Shanghai Fudan Microelectronics (China)	https://doi.org/10.1007/s11280-022-01071-w
+113	0.394	adjacent	0.75	0.00	0.29	0.00	Intelligent Online Selling Point Extraction for E-commerce Recommendation	2022	15	AAAI	Jingdong (China)	https://doi.org/10.1609/aaai.v36i11.21501
+114	0.392	core	0.00	0.50	0.26	0.00	Personalized Elastic Embedding Learning for On-Device Recommendation	2024	10	IEEE TKDE		https://doi.org/10.1109/tkde.2024.3361562
+115	0.392	core	0.00	0.00	0.89	0.00	Cross-View Locality Preserved Diversity and Consensus Learning for Multi-View Unsupervised Feature Selection	2021	212	IEEE TKDE		https://doi.org/10.1109/tkde.2020.3048678
+116	0.392	adjacent	0.75	0.00	0.28	0.00	Probing Product Description Generation via Posterior Distillation	2021	14	AAAI	Jingdong (China)	https://doi.org/10.1609/aaai.v35i16.17682
+117	0.391	adjacent	0.00	0.25	0.97	0.00	Knowledge Graph Contrastive Learning for Recommendation	2022	454	SIGIR		https://doi.org/10.1145/3477495.3532009
+118	0.389	core	0.00	0.00	0.38	0.40	Feature-aware Diversified Re-ranking with Disentangled Representations for Relevant Recommendation	2022	29	KDD		https://doi.org/10.1145/3534678.3539130
+119	0.389	adjacent	0.00	0.25	0.93	0.00	Graph Neural Networks for Recommender System	2022	275	WSDM		https://doi.org/10.1145/3488560.3501396
+120	0.389	core	0.50	0.00	0.12	0.00	GANPrompt: Improving LLM-Based Recommendations with GAN-Enhanced Diversity Prompts	2025	2	ACM TOIS	Lenovo (China)	https://doi.org/10.1145/3769428
+121	0.388	core	0.00	0.50	0.16	0.20	Density-based User Representation using Gaussian Process Regression for Multi-interest Personalized Retrieval	2023	4	NeurIPS		https://doi.org/10.52202/079017-1666
+122	0.387	core	0.00	0.25	0.36	0.00	A Privacy Preserving System for Movie Recommendations Using Federated Learning	2023	22	ACM RecSys		https://doi.org/10.1145/3634686
+123	0.387	adjacent	0.50	0.50	0.00	0.00	Trimming the Fat: Redundancy-Aware Acceleration Framework for DGNNs	2026	0	AAAI	Zhejiang Energy Group (China); Antea Group (France)	https://doi.org/10.1609/aaai.v40i26.39354
+124	0.387	adjacent	0.50	0.50	0.00	0.00	Driving Engagement in Daily Fantasy Sports with a Scalable and Urgency-Aware Ranking Engine	2026	0	AAAI	Dream Laboratory (United Kingdom)	https://doi.org/10.1609/aaai.v40i47.41479
+125	0.386	core	0.00	0.00	0.93	0.00	Physics of Language Models: Part 3.1, Knowledge Storage and Extraction	2023	279	ICML		https://doi.org/10.48550/arXiv.2309.14316
+126	0.386	adjacent	0.75	0.00	0.24	0.00	Self-Supervised Interest Transfer Network via Prototypical Contrastive Learning for Recommendation	2023	9	AAAI	Alibaba Group (United States)	https://doi.org/10.1609/aaai.v37i4.25584
+127	0.386	adjacent	0.00	1.00	0.12	0.00	Direct Routing Gradient (DRGrad): A Personalized Information Surgery for Multi-Task Learning (MTL) Recommendations	2025	2	AAAI		https://doi.org/10.1609/aaai.v39i12.33333
+128	0.383	core	0.00	0.00	0.46	0.40	Post Processing Recommender Systems with Knowledge Graphs for Recency, Popularity, and Diversity of Explanations	2022	45	SIGIR		https://doi.org/10.1145/3477495.3532041
+129	0.383	core	0.00	0.00	0.83	0.00	Measuring Diversity in Graph Learning: A Unified Framework for Structured Multi-View Clustering	2021	188	IEEE TKDE		https://doi.org/10.1109/tkde.2021.3068461
+130	0.383	adjacent	0.00	0.25	1.00	0.00	Bias and Debias in Recommender System: A Survey and Future Directions	2022	607	ACM TOIS		https://doi.org/10.1145/3564284
+131	0.382	core	0.00	0.25	0.21	0.20	Do Not Read the Same News! Enhancing Diversity and Personalization of News Recommendation	2022	7	TheWebConf / WWW		https://doi.org/10.1145/3487553.3524936
+132	0.382	core	0.00	0.25	0.28	0.20	Determinantal Point Process Likelihoods for Sequential Recommendation	2022	14	SIGIR		https://doi.org/10.1145/3477495.3531965
+133	0.380	core	0.00	0.50	0.00	0.00	Bisociative Pivoting as a Method for Moderating User Response to Text Similarity in Next-item News Recommendation	2026	0	ACM RecSys		https://doi.org/10.1145/3808221
+134	0.380	core	0.00	0.50	0.00	0.00	SM-RS 2.0: User-perceived Qualities of Single- and Multi-Objective Recommender Systems	2025	0	ACM RecSys		https://doi.org/10.1145/3754459
+135	0.380	core	0.00	0.50	0.00	0.00	From Good Intentions to Meaningful Impact: A Design Justice Approach for News Recommendation	2025	0	ACM RecSys		https://doi.org/10.1145/3773037
+136	0.380	adjacent	0.75	0.00	0.17	0.00	Beyond Relevance: Factor-level Causal Explanation for User Travel Decisions with Counterfactual Data Augmentation	2024	4	ACM TOIS	Baidu (China)	https://doi.org/10.1145/3653673
+137	0.379	adjacent	0.50	0.00	0.32	0.20	Improving Micro-video Recommendation via Contrastive Multiple Interests	2022	18	SIGIR	MediaTek (Singapore)	https://doi.org/10.1145/3477495.3531861
+138	0.379	adjacent	0.75	0.00	0.16	0.00	XiYan-SQL: A Novel Multi-Generator Framework for Text-to-SQL	2026	3	IEEE TKDE	Alibaba Group (China)	https://doi.org/10.1109/tkde.2026.3657851
+139	0.376	core	0.00	0.00	0.00	0.80	What Course Should I Enroll In Next? Guiding Students Toward Academic Success with Sequential Recommendations	2026	0	ACM RecSys		https://doi.org/10.1145/3789502
+140	0.374	core	0.00	0.00	0.77	0.00	Federated Recommender System Based on Diffusion Augmentation and Guided Denoising	2024	88	ACM TOIS		https://doi.org/10.1145/3688570
+141	0.373	adjacent	0.50	0.00	0.28	0.20	Deep Page-Level Interest Network in Reinforcement Learning for Ads Allocation	2022	13	SIGIR	Meizu (China)	https://doi.org/10.1145/3477495.3531847
+142	0.373	core	0.00	0.25	0.12	0.20	Don’t Get Bored: Enhancing Scalability and Diversity in Session-Based Slate Recommendation	2025	2	ACM RecSys		https://doi.org/10.1145/3733241
+143	0.372	core	0.00	0.00	0.42	0.20	Assessing the Impact of Music Recommendation Diversity on Listeners: A Longitudinal Study	2023	33	ACM RecSys		https://doi.org/10.1145/3608487
+144	0.370	adjacent	0.00	0.25	0.85	0.20	LLM-ESR: Large Language Models Enhancement for Long-tailed Sequential Recommendation	2024	117	NeurIPS		https://doi.org/10.52202/079017-0839
+145	0.370	core	0.00	0.25	0.25	0.00	Measuring Commonality in Recommendation of Cultural Content to Strengthen Cultural Citizenship	2024	9	ACM RecSys		https://doi.org/10.1145/3643138
+146	0.370	core	0.50	0.00	0.00	0.00	From Trade-off to Synergy: Rethinking the Long-tail Session-based Recommendation Via Dual Constraints of Hybrid Intent	2026	0	ACM TOIS	Ubiquitous Energy (United States)	https://doi.org/10.1145/3816730
+147	0.370	core	0.50	0.00	0.00	0.00	Federated Recommendation via Stochastic Aggregation and Consistency Inference	2026	0	ACM TOIS	DHC Software (China)	https://doi.org/10.1145/3795526
+148	0.369	adjacent	0.50	0.00	0.32	0.00	A novel feature-based framework enabling multi-type DDoS attacks detection	2022	19	TheWebConf / WWW	China National Petroleum Corporation (China)	https://doi.org/10.1007/s11280-022-01040-3
+149	0.369	core	0.00	0.25	0.43	0.00	CHA: Categorical Hierarchy-based Attention for Next POI Recommendation	2021	42	ACM TOIS		https://doi.org/10.1145/3464300
+150	0.365	core	0.00	0.25	0.07	0.20	MBASR: A Generic Framework for Multi-Behavior Data Augmentation in Sequential Recommendation	2025	1	ACM RecSys		https://doi.org/10.1145/3749998
+151	0.365	core	0.00	0.25	0.29	0.00	Fair-SRS: A Fair Session-based Recommendation System	2022	15	WSDM		https://doi.org/10.1145/3488560.3502191
+152	0.364	core	0.50	0.00	0.00	0.00	Bid Farewell to Seesaw: Towards Accurate Long-Tail Session-Based Recommendation via Dual Constraints of Hybrid Intents	2026	0	AAAI	Ubiquitous Energy (United States)	https://doi.org/10.1609/aaai.v40i19.38622
+153	0.363	core	0.00	0.25	0.47	0.00	Supply-Side Equilibria in Recommender Systems	2022	47	NeurIPS		https://doi.org/10.48550/arXiv.2206.13489
+154	0.363	core	0.00	0.00	0.18	0.60	Matching Search Result Diversity with User Diversity Acceptance in Web Search Sessions	2022	5	SIGIR		https://doi.org/10.1145/3477495.3531880
+155	0.360	core	0.00	0.00	0.50	0.00	Understanding Biases in ChatGPT-based Recommender Systems: Provider Fairness, Temporal Stability, and Recency	2024	39	ACM RecSys		https://doi.org/10.1145/3690655
+156	0.360	core	0.00	0.25	0.22	0.20	CETN: Contrast-enhanced Through Network for Click-Through Rate Prediction	2024	7	ACM TOIS		https://doi.org/10.1145/3688571
+157	0.359	weak	1.00	0.00	0.28	0.00	NeuralKG: An Open Source Library for Diverse Representation Learning of Knowledge Graphs	2022	13	SIGIR	Huawei Technologies (China); Alibaba Group (China)	https://doi.org/10.1145/3477495.3531669
+158	0.359	adjacent	0.00	0.50	0.61	0.00	Results of the NeurIPS'21 Challenge on Billion-Scale Approximate Nearest Neighbor Search	2022	87	NeurIPS		https://doi.org/10.48550/arXiv.2205.03763
+159	0.358	core	0.00	0.00	0.49	0.00	Auditing YouTube’s Recommendation Algorithm for Misinformation Filter Bubbles	2022	52	ACM RecSys		https://doi.org/10.1145/3568392
+160	0.355	core	0.00	0.00	0.32	0.20	Explainable Meta-Path Based Recommender Systems	2023	17	ACM RecSys		https://doi.org/10.1145/3625828
+161	0.354	core	0.00	0.00	0.35	0.20	Toward the Next Generation of News Recommender Systems	2021	25	TheWebConf / WWW		https://doi.org/10.1145/3442442.3452327
+162	0.354	core	0.00	0.00	0.65	0.00	ReFRS: Resource-efficient Federated Recommender System for Dynamic and Diversified User Preferences	2022	98	ACM TOIS		https://doi.org/10.1145/3560486
+163	0.353	adjacent	0.50	0.00	0.37	0.00	Bi-Level Graph Structure Learning for Next POI Recommendation	2024	21	IEEE TKDE	Meizu (China)	https://doi.org/10.1109/tkde.2024.3397683
+164	0.350	core	0.00	0.25	0.20	0.20	Diversity Maximization in the Presence of Outliers	2023	6	AAAI		https://doi.org/10.1609/aaai.v37i10.26454
+165	0.350	core	0.00	0.25	0.31	0.00	Cross-domain Recommendation via Dual Adversarial Adaptation	2023	16	ACM TOIS		https://doi.org/10.1145/3632524
+166	0.349	core	0.00	0.00	0.66	0.00	Multi-View Intent Disentangle Graph Networks for Bundle Recommendation	2022	101	AAAI		https://doi.org/10.1609/aaai.v36i4.20359
+167	0.347	adjacent	0.75	0.00	0.00	0.00	Exploring Cross-Cultural Perspectives on AI Education: Insights from Teachers in Nigeria and the USA	2026	0	AAAI	Microsoft (United States)	https://doi.org/10.1609/aaai.v40i47.41499
+168	0.346	core	0.00	0.00	0.26	0.20	Mitigating Exposure Bias in Recommender Systems—A Comparative Analysis of Discrete Choice Models	2024	10	ACM RecSys		https://doi.org/10.1145/3641291
+169	0.344	adjacent	0.00	0.00	1.00	0.00	Are Graph Augmentations Necessary?	2022	581	SIGIR		https://doi.org/10.1145/3477495.3531937
+170	0.344	core	0.00	0.25	0.35	0.00	Unveiling User Satisfaction and Creator Productivity Trade-Offs in Recommendation Platforms	2024	18	NeurIPS		https://doi.org/10.48550/arXiv.2410.23683
+171	0.342	core	0.00	0.00	0.39	0.00	A Survey on Intent-aware Recommender Systems	2024	23	ACM RecSys		https://doi.org/10.1145/3700890
+172	0.342	core	0.00	0.25	0.00	0.40	Diagnostic-Guided Dynamic Profile Optimization for LLM-based User Simulators in Sequential Recommendation	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i18.38556
+173	0.342	core	0.00	0.00	0.35	0.20	Diversity Vs Relevance: A Practical Multi-objective Study in Luxury Fashion Recommendations	2022	23	SIGIR		https://doi.org/10.1145/3477495.3531866
+174	0.341	core	0.00	0.25	0.11	0.20	Multi-Response Awareness for Retrieval-Based Conversations: Respond with Diversity via Dynamic Representation Learning	2021	2	ACM TOIS		https://doi.org/10.1145/3470450
+175	0.341	core	0.00	0.25	0.14	0.20	FacetCRS: Multi-Faceted Preference Learning for Pricking Filter Bubbles in Conversational Recommender System	2024	3	AAAI		https://doi.org/10.1609/aaai.v38i8.28794
+176	0.339	core	0.00	0.25	0.24	0.00	A Thorough Performance Benchmarking on Lightweight Embedding-based Recommender Systems	2025	7	ACM TOIS		https://doi.org/10.1145/3712589
+177	0.339	core	0.00	0.00	0.40	0.00	Robust Self-Supervised Structural Graph Neural Network for Social Network Prediction	2022	33	TheWebConf / WWW		https://doi.org/10.1145/3485447.3512182
+178	0.338	core	0.00	0.00	0.33	0.40	Performative Recommendation: Diversifying Content via Strategic Incentives	2023	18	ICML		https://doi.org/10.48550/arXiv.2302.04336
+179	0.338	core	0.00	0.00	0.40	0.20	Relieving Popularity Bias in Interactive Recommendation: A Diversity-Novelty-Aware Reinforcement Learning Approach	2023	29	ACM TOIS		https://doi.org/10.1145/3618107
+180	0.338	core	0.00	0.00	0.40	0.20	GANSpiration: Balancing Targeted and Serendipitous Inspiration in User Interface Design with Style-Based Generative Adversarial Network	2022	32	ACM CHI		https://doi.org/10.1145/3491102.3517511
+181	0.337	core	0.00	0.00	0.25	0.20	Learning Probabilistic Box Embeddings for Effective and Efficient Ranking	2022	10	TheWebConf / WWW		https://doi.org/10.1145/3485447.3512073
+182	0.334	adjacent	0.50	0.00	0.07	0.00	Unbiased Identification of Broadly Appealing Content Using a Pure Exploration Infinitely Armed Bandit Strategy	2023	1	ACM RecSys	Photon Spot (United States)	https://doi.org/10.1145/3626324
+183	0.333	adjacent	0.00	0.25	0.50	0.00	Heterogeneous Hypergraph Neural Network for Social Recommendation using Attention Network	2023	48	ACM RecSys		https://doi.org/10.1145/3613964
+184	0.332	core	0.00	0.00	0.59	0.00	Amazon-M2: A Multilingual Multi-locale Shopping Session Dataset for Recommendation and Text Generation	2023	68	NeurIPS		https://doi.org/10.48550/arXiv.2307.09688
+185	0.332	core	0.00	0.00	0.51	0.00	A Graph-Based Approach for Mitigating Multi-Sided Exposure Bias in Recommender Systems	2021	66	ACM TOIS		https://doi.org/10.1145/3470948
+186	0.331	core	0.00	0.00	0.32	0.00	Examining the User Evaluation of Multi-List Recommender Interfaces in the Context of Healthy Recipe Choices	2023	17	ACM RecSys		https://doi.org/10.1145/3581930
+187	0.331	core	0.00	0.00	0.35	0.00	Towards Analyzing the Bias of News Recommender Systems Using Sentiment and Stance Detection	2022	24	TheWebConf / WWW		https://doi.org/10.1145/3487553.3524674
+188	0.331	core	0.00	0.00	0.35	0.00	SSLE: A framework for evaluating the “Filter Bubble” effect on the news aggregator and recommenders	2022	24	TheWebConf / WWW		https://doi.org/10.1007/s11280-022-01031-4
+189	0.330	core	0.00	0.00	0.28	0.20	Towards Results-level Proportionality for Multi-objective Recommender Systems	2022	13	SIGIR		https://doi.org/10.1145/3477495.3531787
+190	0.330	core	0.00	0.25	0.00	0.00	Controlled Personalization in Legacy Media Online Services: A Case Study in News Recommendation	2026	0	ACM RecSys		https://doi.org/10.1145/3814614
+191	0.330	adjacent	0.00	0.00	0.75	0.20	Multi-modal Graph Contrastive Learning for Micro-video Recommendation	2022	133	SIGIR		https://doi.org/10.1145/3477495.3532027
+192	0.329	adjacent	0.00	0.00	0.82	0.20	DiffuRec: A Diffusion Model for Sequential Recommendation	2023	129	ACM TOIS		https://doi.org/10.1145/3631116
+193	0.329	adjacent	0.50	0.00	0.22	0.00	Collaborative Knowledge Fusion: A Novel Method for Multi-Task Recommender Systems via LLMs	2025	6	IEEE TKDE	Lenovo (China)	https://doi.org/10.1109/tkde.2025.3581706
+194	0.328	core	0.00	0.00	0.38	0.00	Cognitive diversity, creativity and team effectiveness: the mediations of inclusion and knowledge sharing	2022	28	CIKM		https://doi.org/10.1108/vjikms-06-2022-0190
+195	0.328	core	0.00	0.00	0.15	0.20	CROSS: Feedback-Oriented Multi-Modal Dynamic Alignment in Recommendation Systems	2025	3	ACM RecSys		https://doi.org/10.1145/3734527
+196	0.328	core	0.00	0.00	0.49	0.00	Multi-View Subspace Clustering by Joint Measuring of Consistency and Diversity	2022	52	IEEE TKDE		https://doi.org/10.1109/tkde.2022.3199587
+197	0.328	adjacent	0.25	0.00	0.52	0.00	Sequential/Session-based Recommendations	2022	60	SIGIR		https://doi.org/10.1145/3477495.3532685
+198	0.328	core	0.00	0.00	0.56	0.00	Removing Hidden Confounding in Recommendation: A Unified Multi-Task Learning Approach	2023	61	NeurIPS		https://doi.org/10.52202/075280-2380
+199	0.327	core	0.00	0.00	0.56	0.00	On the Embedding Collapse when Scaling up Recommendation Models	2023	60	ICML		https://doi.org/10.48550/arXiv.2310.04400
+200	0.327	adjacent	0.00	0.50	0.33	0.00	Cryptographic Primitives in Privacy-Preserving Machine Learning: A Survey	2023	19	IEEE TKDE		https://doi.org/10.1109/tkde.2023.3321803
+201	0.326	core	0.00	0.00	0.40	0.00	DAWAR	2022	32	SIGIR		https://doi.org/10.1145/3477495.3531962
+202	0.323	core	0.00	0.00	0.31	0.00	A fairness-aware multi-stakeholder recommender system	2021	18	TheWebConf / WWW		https://doi.org/10.1007/s11280-021-00946-8
+203	0.322	core	0.00	0.00	0.38	0.00	Mitigating the Filter Bubble While Maintaining Relevance	2022	28	SIGIR		https://doi.org/10.1145/3477495.3531890
+204	0.321	adjacent	0.00	0.00	0.92	0.00	XSimGCL: Towards Extremely Simple Graph Contrastive Learning for Recommendation	2023	269	IEEE TKDE		https://doi.org/10.1109/tkde.2023.3288135
+205	0.318	core	0.00	0.25	0.00	0.20	TreeBridge: Aligning LLM Embeddings in Industrial Recommender Systems	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i47.41478
+206	0.317	core	0.00	0.25	0.11	0.00	Towards One-Size-Fits-Many: Multi-Context Attention Network for Diversity of Entity Resolution Tasks	2021	2	IEEE TKDE		https://doi.org/10.1109/tkde.2021.3060790
+207	0.317	core	0.00	0.25	0.14	0.00	Non-monotone Sequential Submodular Maximization	2024	3	AAAI		https://doi.org/10.1609/aaai.v38i14.29452
+208	0.317	core	0.00	0.00	0.27	0.20	GDESA: Greedy Diversity Encoder with Self-attention for Search Results Diversification	2022	12	ACM TOIS		https://doi.org/10.1145/3544103
+209	0.316	core	0.00	0.00	0.49	0.00	Position: Measure Dataset Diversity, Don't Just Claim It	2024	37	ICML		https://doi.org/10.48550/arXiv.2407.08188
+210	0.315	core	0.00	0.00	0.07	0.20	The Upside of Bias: Personalizing Long-Tail Item Recommendations with Biased Sampling	2025	1	ACM RecSys		https://doi.org/10.1145/3771279
+211	0.315	core	0.00	0.00	0.41	0.00	Reinforcement Learning Based Path Exploration for Sequential Explainable Recommendation	2023	30	IEEE TKDE		https://doi.org/10.1109/tkde.2023.3237741
+212	0.315	core	0.00	0.00	0.18	0.20	Retrieval and Recommendation Systems at the Crossroads of Artificial Intelligence, Ethics, and Regulation	2022	5	SIGIR		https://doi.org/10.1145/3477495.3532683
+213	0.315	core	0.00	0.00	0.29	0.20	Augmenting Sequential Recommendation with Balanced Relevance and Diversity	2025	10	AAAI		https://doi.org/10.1609/aaai.v39i11.33258
+214	0.314	adjacent	0.00	0.50	0.07	0.00	Efficient and Responsible Adaptation of Large Language Models for Robust Top-k Recommendations	2025	1	ACM RecSys		https://doi.org/10.1145/3774778
+215	0.314	core	0.00	0.00	0.25	0.00	Auditing Source Diversity Bias in Video Search Results Using Virtual Agents	2021	11	TheWebConf / WWW		https://doi.org/10.1145/3442442.3452306
+216	0.314	adjacent	0.00	0.00	0.96	0.00	LightGCL: Simple Yet Effective Graph Contrastive Learning for Recommendation	2023	386	ICLR		https://doi.org/10.48550/arXiv.2302.08191
+217	0.314	adjacent	0.00	0.00	0.96	0.00	Efficient Online Reinforcement Learning with Offline Data	2023	385	ICML		https://doi.org/10.48550/arXiv.2302.02948
+218	0.313	core	0.00	0.00	0.25	0.00	VICTOR: An Implicit Approach to Mitigate Misinformation via Continuous Verification Reading	2022	10	TheWebConf / WWW		https://doi.org/10.1145/3485447.3512246
+219	0.313	adjacent	0.00	0.25	0.64	0.00	Contrastive Graph Structure Learning via Information Bottleneck for Recommendation	2022	94	NeurIPS		https://doi.org/10.52202/068431-1484
+220	0.312	core	0.00	0.00	0.42	0.00	Learning from the Dark: Boosting Graph Convolutional Neural Networks with Diverse Negative Samples	2022	37	AAAI		https://doi.org/10.1609/aaai.v36i6.20608
+221	0.312	adjacent	0.50	0.00	0.12	0.00	Personalized News Recommendation Towards the Era of LLMs: Review and Prospect	2025	2	IEEE TKDE	China State Construction Engineering (China); China Mobile (China)	https://doi.org/10.1109/tkde.2025.3581806
+222	0.311	core	0.00	0.25	0.07	0.00	When Graph Contrastive Learning Backfires: Spectral Vulnerability and Defense in Recommendation	2025	1	ACM TOIS		https://doi.org/10.1145/3779448
+223	0.311	core	0.00	0.00	0.16	0.20	Report on the 1st workshop on recommender systems for human resources (RecSys in HR 2021) at RecSys 2021	2021	4	SIGIR		https://doi.org/10.1145/3527546.3527567
+224	0.311	adjacent	0.50	0.00	0.00	0.20	BLADE: A Behavior-Level Data Augmentation Framework with Dual Fusion Modeling for Multi-Behavior Sequential Recommendation	2026	0	AAAI	MediaTek (China)	https://doi.org/10.1609/aaai.v40i18.38543
+225	0.310	core	0.00	0.00	0.26	0.00	Vaccine Hesitancy in Nigeria: Overcoming Cultural, Linguistic and Religious Obstacles	2024	10	CIKM		https://doi.org/10.4314/iijikm.v15i1.12
+226	0.310	core	0.00	0.00	0.45	0.00	Mitigating the Popularity Bias of Graph Collaborative Filtering: A Dimensional Collapse Perspective	2023	38	NeurIPS		https://doi.org/10.52202/075280-2952
+227	0.310	core	0.00	0.00	0.30	0.20	Diversified Recommendations for Agents with Adaptive Preferences	2022	16	NeurIPS		https://doi.org/10.48550/arXiv.2210.07773
+228	0.309	core	0.00	0.00	0.45	0.00	Ethical Considerations for Responsible Data Curation	2023	37	NeurIPS		https://doi.org/10.52202/075280-2415
+229	0.309	core	0.00	0.00	0.44	0.00	ManyDG: Many-domain Generalization for Healthcare Applications	2023	36	ICLR		https://doi.org/10.48550/arXiv.2301.08834
+230	0.307	core	0.00	0.00	0.36	0.00	GS$^{2}$-RS: A Generative Approach for Alleviating Cold start and Filter bubbles in Recommender Systems	2023	22	IEEE TKDE		https://doi.org/10.1109/tkde.2023.3290140
+231	0.307	adjacent	0.00	0.00	0.84	0.00	NeuLFT: A Novel Approach to Nonlinear Canonical Polyadic Decomposition on High-Dimensional Incomplete Tensors	2022	162	IEEE TKDE		https://doi.org/10.1109/tkde.2022.3176466
+232	0.306	core	0.00	0.00	0.35	0.00	Top-k Socio-Spatial Co-engaged Location Selection for Social Users	2022	23	IEEE TKDE		https://doi.org/10.1109/tkde.2022.3151095
+233	0.306	core	0.00	0.00	0.35	0.00	Hierarchical Denoising for Robust Social Recommendation	2024	18	IEEE TKDE		https://doi.org/10.1109/tkde.2024.3508778
+234	0.305	core	0.00	0.00	0.27	0.20	Correcting Exposure Bias for Link Recommendation	2021	13	ICML		http://proceedings.mlr.press/v139/gupta21c/gupta21c.pdf
+235	0.305	core	0.00	0.00	0.20	0.00	The Gender Perspective in Wikipedia: A Content and Participation Challenge	2022	6	TheWebConf / WWW		https://doi.org/10.1145/3487553.3524937
+236	0.305	core	0.00	0.25	0.11	0.00	Outside the Echo Chamber: Optimizing the Performative Risk	2021	2	ICML		https://dblp.uni-trier.de/db/conf/icml/icml2021.html#MillerPZ21
+237	0.304	adjacent	0.50	0.00	0.07	0.00	Ownership Verification for Federated Recommendation	2025	1	ACM TOIS	Shenzhen Weiguang Biological Products (China)	https://doi.org/10.1145/3715320
+238	0.304	core	0.00	0.00	0.19	0.00	DeHier: decoupled and hierarchical graph neural networks for multi-interest session-based recommendation	2024	5	TheWebConf / WWW		https://doi.org/10.1007/s11280-024-01294-z
+239	0.304	core	0.00	0.00	0.00	0.20	A Reward-Informed Semi-Personalized Bandit Approach for Enhancing Accuracy and Serendipity in Online Slate Recommendations	2025	0	ACM RecSys		https://doi.org/10.1145/3771931
+240	0.304	core	0.00	0.00	0.07	0.40	HyMoERec: Hybrid Mixture-of-Experts for Sequential Recommendation (Student Abstract)	2026	1	AAAI		https://doi.org/10.1609/aaai.v40i48.42238
+241	0.303	adjacent	0.00	0.25	0.43	0.00	DH-HGCN: Dual Homogeneity Hypergraph Convolutional Network for Multiple Social Recommendations	2022	38	SIGIR		https://doi.org/10.1145/3477495.3531828
+242	0.303	adjacent	0.00	0.25	0.16	0.20	Search-based Time-aware Graph-enhanced Recommendation with Sequential Behavior Data	2023	4	ACM RecSys		https://doi.org/10.1145/3605356
+243	0.303	core	0.00	0.00	0.14	0.00	A Deep Learning Model for Cross-Domain Serendipity Recommendations	2024	3	ACM RecSys		https://doi.org/10.1145/3690654
+244	0.302	adjacent	0.00	0.50	0.26	0.00	The Right to AI	2025	8	ICML		https://doi.org/10.48550/arXiv.2501.17899
+245	0.302	core	0.00	0.00	0.14	0.00	RADio* – An Introduction to Measuring Normative Diversity in News Recommendations	2023	3	ACM RecSys		https://doi.org/10.1145/3636465
+246	0.302	core	0.00	0.00	0.21	0.00	Diversified Query Generation Guided by Knowledge Graph	2022	7	WSDM		https://doi.org/10.1145/3488560.3498431
+247	0.302	core	0.00	0.00	0.21	0.20	AI Facilitated Isolations? The Impact of Recommendation-based Influence Diffusion in Human Society	2022	7	IJCAI		https://doi.org/10.24963/ijcai.2022/705
+248	0.302	core	0.00	0.00	0.32	0.00	An Adaptive, Context-Aware, and Stacked Attention Network-Based Recommendation System to Capture Users’ Temporal Preference	2022	19	IEEE TKDE		https://doi.org/10.1109/tkde.2022.3140387
+249	0.301	core	0.00	0.00	0.32	0.00	Understanding Diversity in Session-based Recommendation	2023	17	ACM TOIS		https://doi.org/10.1145/3600226
+250	0.301	adjacent	0.00	0.25	0.56	0.00	Unveiling the Secret Recipe: A Guide For Supervised Fine-Tuning Small LLMs	2024	49	ICLR		https://doi.org/10.48550/arXiv.2412.13337
+251	0.300	core	0.00	0.00	0.24	0.00	NAS-CTR	2022	9	SIGIR		https://doi.org/10.1145/3477495.3532030
+252	0.299	adjacent	0.00	0.00	0.87	0.00	GraphRouter: A Graph-based Router for LLM Selections	2024	143	ICLR		https://doi.org/10.48550/arXiv.2410.03834
+253	0.299	core	0.00	0.00	0.16	0.00	Fairness beyond “equal”: The Diversity Searcher as a Tool to Detect and Enhance the Representation of Socio-political Actors in News Media	2021	4	TheWebConf / WWW		https://doi.org/10.1145/3442442.3452303
+254	0.299	adjacent	0.50	0.00	0.07	0.00	DHMRec: Collaboration-Guided Multimodal Disentanglement and Hierarchical Fusion for Recommendation	2026	1	AAAI	DHC Software (China)	https://doi.org/10.1609/aaai.v40i19.38661
+255	0.299	core	0.00	0.00	0.12	0.00	A Literature Review of Ethical Considerations in Recommender Systems for User-Generated Content in Human-Computer Interaction	2025	2	ACM RecSys		https://doi.org/10.1145/3770747
+256	0.298	core	0.00	0.00	0.30	0.00	Bayes-Enhanced Multi-View Attention Networks for Robust POI Recommendation	2023	15	IEEE TKDE		https://doi.org/10.1109/tkde.2023.3329673
+257	0.298	core	0.00	0.00	0.30	0.00	Supporting Serendipitous Discovery and Balanced Analysis of Online Product Reviews with Interaction-Driven Metrics and Bias-Mitigating Suggestions	2022	16	ACM CHI		https://doi.org/10.1145/3491102.3517649
+258	0.297	adjacent	0.00	0.50	0.19	0.00	Promoting Research Collaboration with Open Data Driven Team Recommendation in Response to Call for Proposals	2024	5	AAAI		https://doi.org/10.1609/aaai.v38i21.30318
+259	0.297	adjacent	0.00	0.50	0.00	0.00	Multi-role social behavior modeling in content-free news recommendation	2025	0	TheWebConf / WWW		https://doi.org/10.1007/s11280-025-01345-z
+260	0.297	core	0.00	0.00	0.29	0.00	Q-Chef: The impact of surprise-eliciting systems on food-related decision-making	2022	15	ACM CHI		https://doi.org/10.1145/3491102.3501862
+261	0.296	core	0.00	0.00	0.14	0.00	Spatiotemporal data management and analytics for recommender systems	2023	3	TheWebConf / WWW		https://doi.org/10.1007/s11280-023-01162-2
+262	0.296	adjacent	0.00	0.25	0.46	0.00	Adaptive Clustering Based Personalized Federated Learning Framework for Next POI Recommendation With Location Noise	2023	39	IEEE TKDE		https://doi.org/10.1109/tkde.2023.3312511
+263	0.296	adjacent	0.00	0.25	0.12	0.20	Introduction to the Special Issue on Deep Reinforcement Learning for Recommender Systems	2025	2	ACM RecSys		https://doi.org/10.1145/3746129
+264	0.295	adjacent	0.00	0.25	0.37	0.00	Empowering Next POI Recommendation with Multi-Relational Modeling	2022	27	SIGIR		https://doi.org/10.1145/3477495.3531801
+265	0.294	adjacent	0.00	0.00	0.31	0.60	Attention Over Self-Attention: Intention-Aware Re-Ranking With Dynamic Transformer Encoders for Recommendation	2022	17	IEEE TKDE		https://doi.org/10.1109/tkde.2022.3208633
+266	0.294	adjacent	0.00	0.00	0.64	0.00	PipAttack: Poisoning Federated Recommender Systems for Manipulating Item Promotion	2022	96	WSDM		https://doi.org/10.1145/3488560.3498386
+267	0.294	core	0.00	0.00	0.16	0.20	HABIT: Chrono-Synergia Robust Progressive Learning Framework for Composed Image Retrieval	2026	3	AAAI		https://doi.org/10.1609/aaai.v40i8.37608
+268	0.293	core	0.00	0.00	0.31	0.00	Obtaining Calibrated Probabilities with Personalized Ranking Models	2022	17	AAAI		https://doi.org/10.1609/aaai.v36i4.20326
+269	0.293	weak	0.75	0.25	0.00	0.00	PRADA: Pre-Train Ranking Models With Diverse Relevance Signals Mined From Search Logs	2024	0	IEEE TKDE	Baidu (China)	https://doi.org/10.1109/tkde.2024.3515800
+270	0.293	adjacent	0.00	0.00	0.75	0.00	Enhanced Multi-Task Learning and Knowledge Graph-Based Recommender System	2023	108	IEEE TKDE		https://doi.org/10.1109/tkde.2023.3251897
+271	0.292	core	0.00	0.00	0.26	0.00	Explainable Session-Based Recommendation via Path Reasoning	2024	10	IEEE TKDE		https://doi.org/10.1109/tkde.2024.3486326
+272	0.292	core	0.00	0.00	0.00	0.40	GUIDER: Uncertainty Guided Dynamic Re-ranking for Large Language Models Based Recommender Systems	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i19.38639
+273	0.292	core	0.00	0.00	0.00	0.40	ProRec-Video: Guiding Hierarchical Interest Transitions for Proactive Short Video Recommendation with Dynamic Feedback Adaptation	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i17.38475
+274	0.292	core	0.00	0.00	0.07	0.00	Shift your Focus for the Greater Good: Improving Fairness at no cost for Accuracy and Diversity in News Recommender Systems	2026	1	ACM RecSys		https://doi.org/10.1145/3790097
+275	0.292	adjacent	0.00	0.00	0.52	0.20	When Multi-Level Meets Multi-Interest	2022	60	SIGIR		https://doi.org/10.1145/3477495.3532081
+276	0.291	core	0.00	0.00	0.07	0.00	Can Offline Metrics Measure Explanation Goals? A Comparative Survey Analysis of Offline Explanation Metrics in Recommender Systems	2025	1	ACM RecSys		https://doi.org/10.1145/3779420
+277	0.291	core	0.00	0.00	0.11	0.00	Escape from An Echo Chamber	2021	2	TheWebConf / WWW		https://doi.org/10.1145/3442442.3458613
+278	0.291	adjacent	0.00	0.00	0.74	0.00	CoLLM: Integrating Collaborative Embeddings Into Large Language Models for Recommendation	2025	54	IEEE TKDE		https://doi.org/10.1109/tkde.2025.3540912
+279	0.290	core	0.00	0.00	0.25	0.00	Data Anonymization With Diversity Constraints	2021	11	IEEE TKDE		https://doi.org/10.1109/tkde.2021.3131528
+280	0.290	core	0.00	0.00	0.14	0.00	Improving school performance and student academic orientation: the role of safety-oriented knowledge management and diversity	2021	3	CIKM		https://doi.org/10.1108/vjikms-06-2021-0088
+281	0.289	core	0.00	0.00	0.25	0.00	Who am I, and who are you, and who are we? A Scientometric Analysis of Gender and Geography in HCI	2022	10	ACM CHI		https://doi.org/10.1145/3491102.3502106
+282	0.289	adjacent	0.00	0.00	0.80	0.00	Evaluating Quantized Large Language Models	2024	94	ICML		https://doi.org/10.48550/arXiv.2402.18158
+283	0.289	adjacent	0.00	0.00	0.24	0.40	A Personalized Framework for Consumer and Producer Group Fairness Optimization in Recommender Systems	2024	8	ACM RecSys		https://doi.org/10.1145/3651167
+284	0.288	adjacent	0.00	0.25	0.07	0.20	Self-supervised Graph Neural Sequential Recommendation with Disentangling Long and Short-Term Interest	2025	1	ACM RecSys		https://doi.org/10.1145/3723173
+285	0.288	adjacent	0.00	0.00	0.53	0.00	Data Scarcity in Recommendation Systems: A Survey	2024	44	ACM RecSys		https://doi.org/10.1145/3639063
+286	0.288	core	0.00	0.00	0.31	0.00	Theoretical and Empirical Insights into the Origins of Degree Bias in Graph Neural Networks	2024	14	NeurIPS		https://doi.org/10.48550/arXiv.2404.03139
+287	0.287	core	0.00	0.00	0.27	0.00	On the Utility of Prediction Sets in Human-AI Teams	2022	12	IJCAI		https://doi.org/10.24963/ijcai.2022/341
+288	0.286	core	0.00	0.00	0.22	0.00	Diversity-Promoting Recommendation With Dual-Objective Optimization and Dual Consideration	2025	6	IEEE TKDE		https://doi.org/10.1109/tkde.2025.3543285
+289	0.282	adjacent	0.00	0.00	0.61	0.20	Customizing Language Models with Instance-wise LoRA for Sequential Recommendation	2024	57	NeurIPS		https://doi.org/10.48550/arXiv.2408.10159
+290	0.282	core	0.00	0.00	0.28	0.00	Improving LLMs for Recommendation with Out-Of-Vocabulary Tokens	2024	11	ICML		https://doi.org/10.48550/arXiv.2406.08477
+291	0.282	core	0.00	0.00	0.20	0.00	Incremental Multi-View Clustering: Exploring Stream-View Correlations to Learn Consistency and Diversity	2025	5	IEEE TKDE		https://doi.org/10.1109/tkde.2025.3605594
+292	0.282	core	0.00	0.00	0.28	0.00	The Minority Matters: A Diversity-Promoting Collaborative Metric Learning Algorithm	2022	13	NeurIPS		https://doi.org/10.48550/arXiv.2209.15292
+293	0.282	core	0.00	0.00	0.24	0.00	MRMLREC: A Two-Stage Approach for Addressing Data Sparsity in MOOC Video Recommendation (Student Abstract)	2024	8	AAAI		https://doi.org/10.1609/aaai.v38i21.30536
+294	0.281	adjacent	0.00	0.00	0.60	0.00	Learning Graph-based Disentangled Representations for Next POI Recommendation	2022	83	SIGIR		https://doi.org/10.1145/3477495.3532012
+295	0.281	adjacent	0.00	0.00	0.60	0.00	Hierarchical Multi-Task Graph Recurrent Network for Next POI Recommendation	2022	83	SIGIR		https://doi.org/10.1145/3477495.3531989
+296	0.281	adjacent	0.00	0.25	0.36	0.00	Feature-Level Attentive ICF for Recommendation	2022	25	ACM TOIS		https://doi.org/10.1145/3490477
+297	0.280	core	0.00	0.00	0.00	0.00	PI-adaptDiv: an adaptive algorithm to prevent and escape online filter bubbles	2026	0	ACM RecSys		https://doi.org/10.1145/3803548
+298	0.280	core	0.00	0.00	0.00	0.00	Calibrated Recommendations: Survey and Future Directions	2026	0	ACM RecSys		https://doi.org/10.1145/3789266
+299	0.280	core	0.00	0.00	0.00	0.00	The Impact of Position and Contrast Effects in Recommender Systems on Consumer Behavior: A Field Experiment	2025	0	ACM RecSys		https://doi.org/10.1145/3774912
+300	0.280	core	0.00	0.00	0.00	0.00	Multilinguality in MIND: Advancing Cross-lingual News Recommendation with a Multilingual Dataset	2025	0	ACM RecSys		https://doi.org/10.1145/3777415
+301	0.279	adjacent	0.00	0.00	0.66	0.00	MetaKG: Meta-Learning on Knowledge Graph for Cold-Start Recommendation	2022	103	IEEE TKDE		https://doi.org/10.1109/tkde.2022.3168775
+302	0.279	adjacent	0.00	0.00	0.66	0.00	Popularity Bias is not Always Evil: Disentangling Benign and Harmful Bias for Recommendation	2022	103	IEEE TKDE		https://doi.org/10.1109/tkde.2022.3218994
+303	0.279	core	0.00	0.00	0.07	0.00	Effectiveness of Recommender Systems in Knowledge Discovery	2024	1	CIKM		https://doi.org/10.47941/ejikm.1753
+304	0.278	adjacent	0.00	0.00	0.32	0.20	Disentangled Cascaded Graph Convolution Networks for Multi-Behavior Recommendation	2024	15	ACM RecSys		https://doi.org/10.1145/3673244
+305	0.277	adjacent	0.00	0.25	0.00	0.20	Compositions of Variant Experts for Integrating Short-Term and Long-Term Preferences	2026	0	ACM RecSys		https://doi.org/10.1145/3795520
+306	0.276	core	0.00	0.00	0.20	0.00	Multi-type MOOCs Recommendation: Leveraging Deep Multi-Relational Representation and Hierarchical Reasoning	2025	5	AAAI		https://doi.org/10.1609/aaai.v39i12.33453
+307	0.276	core	0.00	0.00	0.16	0.00	”It Deserves to Be Further Developed”: A Study of Mainstream Web Interface Adaptability for People with Low Vision	2022	4	ACM CHI		https://doi.org/10.1145/3491101.3519622
+308	0.275	adjacent	0.00	0.25	0.36	0.00	Fine-Tuning Large Language Model Based Explainable Recommendation with Explainable Quality Reward	2024	20	AAAI		https://doi.org/10.1609/aaai.v38i8.28777
+309	0.275	adjacent	0.00	0.25	0.18	0.00	TAKCO: A Platform for Extracting Novel Facts from Tables	2021	5	TheWebConf / WWW		https://doi.org/10.1145/3442442.3458611
+310	0.274	adjacent	0.00	0.25	0.32	0.00	Learning Dynamic User Interest Sequence in Knowledge Graphs for Click-Through Rate Prediction	2021	20	IEEE TKDE		https://doi.org/10.1109/tkde.2021.3073717
+311	0.274	core	0.00	0.00	0.00	0.20	SAFA: Sequential Recommendation With Adaptive Sparse Attention and Frequency-Aware Encoding	2026	0	IEEE TKDE		https://doi.org/10.1109/tkde.2026.3686613
+312	0.274	core	0.00	0.00	0.00	0.20	SSRec: Structured Ranking Optimization Criterion for Sequential Recommendation	2026	0	ACM TOIS		https://doi.org/10.1145/3796521
+313	0.274	core	0.00	0.00	0.00	0.00	From interests to behavior: hierarchical causal-inspired structure modeling for personalized news recommendation	2025	0	TheWebConf / WWW		https://doi.org/10.1007/s11280-025-01394-4
+314	0.274	core	0.00	0.00	0.00	0.20	Breaking the Loop: Causal Learning to Mitigate Echo Chambers in Social Networks	2025	0	ACM TOIS		https://doi.org/10.1145/3757738
+315	0.274	core	0.00	0.00	0.15	0.00	Uncertainty Calibration for Counterfactual Propensity Estimation in Recommendation	2025	3	IEEE TKDE		https://doi.org/10.1109/tkde.2025.3552658
+316	0.274	core	0.00	0.00	0.22	0.00	Graph-Based Algorithms for Diverse Similarity Search	2025	6	ICML		https://doi.org/10.48550/arXiv.2502.13336
+317	0.273	core	0.00	0.00	0.18	0.00	Online Platforms and the Fair Exposure Problem under Homophily	2023	5	AAAI		https://doi.org/10.1609/aaai.v37i10.26404
+318	0.273	adjacent	0.00	0.00	0.48	0.00	Re4: Learning to Re-contrast, Re-attend, Re-construct for Multi-interest Recommendation	2022	49	TheWebConf / WWW		https://doi.org/10.1145/3485447.3512094
+319	0.273	core	0.00	0.00	0.07	0.00	Report on the SIGIR 2023 Session on Diversity, Equity and Inclusivity	2023	1	SIGIR		https://doi.org/10.1145/3642979.3642993
+320	0.272	core	0.00	0.00	0.14	0.00	Structure Diversity and Mean Hitting Time for Random Walks on Stochastic Uniform Growth Tree Networks	2022	3	IEEE TKDE		https://doi.org/10.1109/tkde.2022.3206210
+321	0.272	adjacent	0.00	0.00	0.47	0.00	A novel knowledge graph embedding based API recommendation method for Mashup development	2021	52	TheWebConf / WWW		https://doi.org/10.1007/s11280-021-00894-3
+322	0.270	adjacent	0.00	0.00	0.49	0.20	Harnessing Multimodal Large Language Models for Multimodal Sequential Recommendation	2025	27	AAAI		https://doi.org/10.1609/aaai.v39i12.33426
+323	0.269	adjacent	0.00	0.25	0.29	0.00	HidAttack: An Effective and Undetectable Model Poisoning Attack to Federated Recommenders	2024	12	IEEE TKDE		https://doi.org/10.1109/tkde.2024.3522763
+324	0.268	adjacent	0.00	0.25	0.32	0.00	DisCo: Graph-Based Disentangled Contrastive Learning for Cold-Start Cross-Domain Recommendation	2025	12	AAAI		https://doi.org/10.1609/aaai.v39i11.33312
+325	0.268	core	0.00	0.00	0.00	0.20	Semi-Supervised Synthetic Data Generation with Fine-Grained Relevance Control for Short Video Search Relevance Modeling	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i37.40425
+326	0.268	core	0.00	0.00	0.00	0.20	Capturing Dynamic User Interests Under Modality Imbalance for Multimodal Sequential Recommendation	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i18.38544
+327	0.268	core	0.00	0.00	0.00	0.20	Assessing LLMs for Serendipity Discovery in Knowledge Graphs: A Case for Drug Repurposing	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i19.38618
+328	0.268	core	0.00	0.00	0.00	0.00	Diversity-oriented leadership and employee creativity: the role of knowledge sharing and openness to experience	2026	0	CIKM		https://doi.org/10.1108/vjikms-07-2025-0332
+329	0.268	core	0.00	0.00	0.00	0.00	Knowledge Sharing Culture in Multinational Corporations	2024	0	CIKM		https://doi.org/10.47941/ejikm.2061
+330	0.268	core	0.00	0.00	0.00	0.00	Democratization of Book Publishing in Nigeria: An Analysis of Self-Publishing from a Digital Intermediation Perspective	2023	0	CIKM		https://doi.org/10.24191/jikm.v13i1.4716
+331	0.267	core	0.00	0.00	0.11	0.00	A Case Study on Improving Accessibility of Healthcare Care Facility in Low-resource Settings	2022	2	ACM CHI		https://doi.org/10.1145/3491101.3503557
+332	0.267	core	0.00	0.00	0.11	0.00	xai-primer.com — A Visual Ideation Space of Interactive Explainers	2022	2	ACM CHI		https://doi.org/10.1145/3491101.3519880
+333	0.267	adjacent	0.00	0.50	0.00	0.00	Layout-Aware Document Parsing with Visual-Linguistic Fusion: The DATA-LUX with Academic Content Service Provider	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i47.41438
+334	0.266	adjacent	0.00	0.25	0.31	0.00	Medical MLLM Is Vulnerable: Cross-Modality Jailbreak and Mismatched Attacks on Medical Multimodal Large Language Models	2025	11	AAAI		https://doi.org/10.1609/aaai.v39i4.32396
+335	0.266	core	0.00	0.00	0.14	0.00	Black-box Audit of YouTube's Video Recommendation: Investigation of Misinformation Filter Bubble Dynamics (Extended Abstract)	2022	3	IJCAI		https://doi.org/10.24963/ijcai.2022/749
+336	0.266	adjacent	0.00	0.00	0.24	0.20	Pone-GNN: Integrating Positive and Negative Feedback in Graph Neural Networks for Recommender Systems	2025	7	ACM RecSys		https://doi.org/10.1145/3711666
+337	0.265	adjacent	0.00	0.25	0.26	0.00	Collaborative Reflection-Augmented Autoencoder Network for Recommender Systems	2021	12	ACM TOIS		https://doi.org/10.1145/3467023
+338	0.265	adjacent	0.00	0.00	0.27	0.40	Toward Best Practices for Training Multilingual Dense Retrieval Models	2023	12	ACM TOIS		https://doi.org/10.1145/3613447
+339	0.264	adjacent	0.00	0.00	0.65	0.00	The Out-of-Distribution Problem in Explainability and Search Methods for Feature Importance Explanations	2021	112	NeurIPS		https://www.semanticscholar.org/paper/e8a44417703e9facebf5a630069b7484664d6087
+340	0.264	adjacent	0.00	0.25	0.33	0.00	How Does Message Passing Improve Collaborative Filtering?	2024	16	NeurIPS		https://doi.org/10.48550/arXiv.2404.08660
+341	0.263	core	0.00	0.00	0.12	0.00	DivGCL: A Graph Contrastive Learning Model for Diverse Recommendation	2025	2	AAAI		https://doi.org/10.1609/aaai.v39i16.33852
+342	0.262	core	0.00	0.00	0.00	0.00	Graph Meta Network for Multi-Behavior Recommendation with Interaction Heterogeneity and Diversity	2021	0	SIGIR		https://sigir.org/sigir2021/accepted-papers/#119
+343	0.261	core	0.00	0.00	0.07	0.00	Hierarchical Intent-Based Interest Disentanglement for Personalized Recommendation	2025	1	IEEE TKDE		https://doi.org/10.1109/tkde.2025.3569097
+344	0.261	core	0.00	0.00	0.11	0.00	Now We’re Talking: Better Deliberation Groups through Submodular Optimization	2023	2	AAAI		https://doi.org/10.1609/aaai.v37i5.25682
+345	0.261	core	0.00	0.00	0.11	0.00	Demonstrating the Equivalence of List Based and Aggregate Metrics to Measure the Diversity of Recommendations (Student Abstract)	2021	2	AAAI		https://doi.org/10.1609/aaai.v35i18.17886
+346	0.261	core	0.00	0.00	0.07	0.00	Conversational Recommendations With User Entity Focus and Multi-Granularity Latent Variable Enhancement	2024	1	IEEE TKDE		https://doi.org/10.1109/tkde.2024.3523283
+347	0.261	adjacent	0.00	0.00	0.48	0.00	Socially-aware Dual Contrastive Learning for Cold-Start Recommendation	2022	49	SIGIR		https://doi.org/10.1145/3477495.3531780
+348	0.261	adjacent	0.00	0.25	0.27	0.00	Disentangled CVAEs with Contrastive Learning for Explainable Recommendation	2023	12	AAAI		https://doi.org/10.1609/aaai.v37i11.26604
+349	0.260	core	0.00	0.00	0.14	0.00	Multi-slots Online Matching with High Entropy	2022	3	ICML		https://www.semanticscholar.org/paper/a9339a078f2c1a16166bea4a331081cde53fa48b
+350	0.259	adjacent	0.00	0.00	0.54	0.00	A Unified Multi-task Learning Framework for Multi-goal Conversational Recommender Systems	2022	66	ACM TOIS		https://doi.org/10.1145/3570640
+351	0.259	adjacent	0.00	0.25	0.22	0.00	Causal Variational Inference for Deconfounded Multi-Behavior Recommendation	2025	6	ACM TOIS		https://doi.org/10.1145/3745023
+352	0.258	adjacent	0.00	0.25	0.11	0.20	Multi-Armed Bandit Problem with Temporally-Partitioned Rewards: When Partial Feedback Counts	2022	2	IJCAI		https://doi.org/10.24963/ijcai.2022/472
+353	0.256	core	0.00	0.00	0.07	0.00	Selection of LLM Fine-Tuning Data Based on Orthogonal Rules	2026	1	AAAI		https://doi.org/10.1609/aaai.v40i37.40444
+354	0.255	core	0.00	0.00	0.07	0.00	Distribution-Free Uncertainty Quantification in Mechanical Ventilation Treatment: A Conformal Deep Q-Learning Framework	2025	1	AAAI		https://doi.org/10.1609/aaai.v39i27.35013
+355	0.255	adjacent	0.00	0.00	0.55	0.00	Next POI Recommendation with Dynamic Graph and Explicit Dependency	2023	58	AAAI		https://doi.org/10.1609/aaai.v37i4.25608
+356	0.254	adjacent	0.00	0.00	0.21	0.20	High-level preferences as positive examples in contrastive learning for multi-interest sequential recommendation	2024	6	TheWebConf / WWW		https://doi.org/10.1007/s11280-024-01263-6
+357	0.254	adjacent	0.00	0.00	0.50	0.00	Sequential-Knowledge-Aware Next POI Recommendation: A Meta-Learning Approach	2021	63	ACM TOIS		https://doi.org/10.1145/3460198
+358	0.253	adjacent	0.00	0.25	0.00	0.00	Understanding Sensitive Attribute Association Bias in Recommendation Embedding Algorithms	2025	0	ACM RecSys		https://doi.org/10.1145/3777548
+359	0.253	adjacent	0.00	0.00	0.35	0.20	Contrastive Multi-view Interest Learning for Cross-domain Sequential Recommendation	2023	21	ACM TOIS		https://doi.org/10.1145/3632402
+360	0.253	adjacent	0.00	0.00	0.35	0.00	BotFinder: a novel framework for social bots detection in online social networks based on graph embedding and community detection	2022	23	TheWebConf / WWW		https://doi.org/10.1007/s11280-022-01114-2
+361	0.253	adjacent	0.00	0.00	0.42	0.20	Towards Out-of-Distribution Sequential Event Prediction: A Causal Treatment	2022	37	NeurIPS		https://doi.org/10.48550/arXiv.2210.13005
+362	0.251	adjacent	0.00	0.00	0.57	0.00	Incorporating Bias-aware Margins into Contrastive Loss for Collaborative Filtering	2022	73	NeurIPS		https://doi.org/10.48550/arXiv.2210.11054
+363	0.250	core	0.00	0.00	0.00	0.00	CPGRec+: A Balance-Oriented Framework for Personalized Video Game Recommendations	2026	0	ACM TOIS		https://doi.org/10.1145/3789264
+364	0.250	core	0.00	0.00	0.00	0.00	Valid Coverage Oriented Item Perspective Recommendation	2025	0	IEEE TKDE		https://doi.org/10.1109/tkde.2025.3547968
+365	0.250	core	0.00	0.00	0.00	0.00	Social Cognitive Theory Enhanced Diversified Recommendation	2025	0	ACM TOIS		https://doi.org/10.1145/3767324
+366	0.250	core	0.00	0.00	0.00	0.00	Uncovering Recommendation Serendipity with Objective Data-driven Factor Investigation	2025	0	ACM TOIS		https://doi.org/10.1145/3758092
+367	0.250	core	0.00	0.00	0.00	0.00	GPU-Accelerated Structural Diversity Search in Graphs	2025	0	IEEE TKDE		https://doi.org/10.1109/tkde.2025.3547443
+368	0.250	adjacent	0.00	0.00	0.29	0.00	KGFlex: Efficient Recommendation with Sparse Feature Factorization and Knowledge Graphs	2023	14	ACM RecSys		https://doi.org/10.1145/3588901
+369	0.250	adjacent	0.00	0.25	0.24	0.00	Estimating Propensity for Causality-based Recommendation without Exposure Data	2023	9	NeurIPS		https://doi.org/10.48550/arXiv.2310.20388
+370	0.249	core	0.00	0.00	0.07	0.00	SAFER: A Calibrated Risk-Aware Multimodal Recommendation Model for Dynamic Treatment Regimes	2025	1	ICML		https://doi.org/10.48550/arXiv.2506.06649
+371	0.249	core	0.00	0.00	0.07	0.00	Simple and Effective VAE Training with Calibrated Decoders	2021	1	ICML		http://proceedings.mlr.press/v139/rybkin21a/rybkin21a.pdf
+372	0.249	adjacent	0.00	0.00	0.32	0.20	OtherTube: Facilitating Content Discovery and Reflection by Exchanging YouTube Recommendations with Strangers	2022	19	ACM CHI		https://doi.org/10.1145/3491102.3502028
+373	0.247	adjacent	0.00	0.00	0.50	0.00	Next Point-of-Interest Recommendation with Inferring Multi-step Future Preferences	2022	56	IJCAI		https://doi.org/10.24963/ijcai.2022/521
+374	0.247	adjacent	0.00	0.25	0.00	0.20	Multi-Channel Hypergraph Contrastive Learning for Matrix Completion	2025	0	ACM TOIS		https://doi.org/10.1145/3768319
+375	0.246	adjacent	0.00	0.00	0.38	0.00	Next Point-of-Interest Recommendation with Auto-Correlation Enhanced Multi-Modal Transformer Network	2022	29	SIGIR		https://doi.org/10.1145/3477495.3531905
+376	0.245	adjacent	0.00	0.00	0.26	0.00	An Explicitly Weighted GCN Aggregator based on Temporal and Popularity Features for Recommendation	2023	11	ACM RecSys		https://doi.org/10.1145/3587272
+377	0.245	adjacent	0.00	0.00	0.45	0.00	Intent-Guided Heterogeneous Graph Contrastive Learning for Recommendation	2025	23	IEEE TKDE		https://doi.org/10.1109/tkde.2025.3536096
+378	0.245	adjacent	0.00	0.00	0.45	0.00	A Novel Expandable Borderline Smote Over-Sampling Method for Class Imbalance Problem	2025	23	IEEE TKDE		https://doi.org/10.1109/tkde.2025.3544284
+379	0.245	adjacent	0.00	0.00	0.15	0.20	Adaptive user multi-level and multi-interest preferences for sequential recommendation	2025	3	TheWebConf / WWW		https://doi.org/10.1007/s11280-025-01332-4
+380	0.244	adjacent	0.00	0.00	0.26	0.00	Enhancing Recommender Systems: Deep Modality Alignment with Large Multi-Modal Encoders	2025	8	ACM RecSys		https://doi.org/10.1145/3718099
+381	0.244	adjacent	0.00	0.00	0.26	0.00	Deep Learning of Dynamic POI Generation and Optimisation for Itinerary Recommendation	2025	8	ACM RecSys		https://doi.org/10.1145/3713079
+382	0.244	core	0.00	0.00	0.00	0.00	Diversity Recommendation via Causal Deconfounding of Co-purchase Relations and Counterfactual Exposure	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i19.38670
+383	0.244	core	0.00	0.00	0.00	0.00	Task-Aware Meta-Learning on Heterogeneous Knowledge Graph for POI Recommendation	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i18.38615
+384	0.244	core	0.00	0.00	0.00	0.00	Quantifying the Potential to Escape Filter Bubbles: A Behavior-Aware Measure via Contrastive Simulation	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i17.38492
+385	0.244	core	0.00	0.00	0.00	0.00	DSCF: Dual-Source Counterfactual Fusion for High-Dimensional Combinatorial Interventions	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i25.39228
+386	0.244	core	0.00	0.00	0.00	0.00	MACRec: A Multi-View Subspace Alignment Framework for Contrastive Sampling Calibration in Recommendation	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i18.38560
+387	0.244	core	0.00	0.00	0.00	0.00	Too Sure for Our Own Good: A User Study on AI Confidence and Human Reliance	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i21.38798
+388	0.244	core	0.00	0.00	0.00	0.00	AuditAgent: LLM Agent for Risks Auditing in Recommender Systems	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i48.42382
+389	0.244	core	0.00	0.00	0.00	0.00	Test-time Diverse Reasoning by Riemannian Activation Steering	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i37.40407
+390	0.244	core	0.00	0.00	0.00	0.00	Beetrap-MC: A Minecraft-Based AI Literacy Tool for Teaching Filter Bubbles to Middle School Students	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i47.41524
+391	0.244	core	0.00	0.00	0.00	0.00	A Theoretical Framework for an Efficient Normalizing Flow-Based Solution to the Electronic Schrödinger Equation	2025	0	AAAI		https://doi.org/10.1609/aaai.v39i1.31996
+392	0.244	core	0.00	0.00	0.00	0.00	Introducing Uninformed Search with Tangible Board Games	2021	0	AAAI		https://doi.org/10.1609/aaai.v25i3.18839
+393	0.244	adjacent	0.00	0.00	0.29	0.00	Mining multiple sequential patterns through multi-graph representation for next point-of-interest recommendation	2022	15	TheWebConf / WWW		https://doi.org/10.1007/s11280-022-01094-3
+394	0.243	adjacent	0.00	0.00	0.29	0.20	GeoCo: Geographical Correlation Enhanced Network for POI Recommendation	2024	12	IEEE TKDE		https://doi.org/10.1109/tkde.2024.3425151
+395	0.243	adjacent	0.00	0.00	0.36	0.00	AutoGSR	2022	25	SIGIR		https://doi.org/10.1145/3477495.3531940
+396	0.243	adjacent	0.00	0.00	0.28	0.20	Intent Disentanglement and Feature Self-Supervision for Novel Recommendation	2022	14	IEEE TKDE		https://doi.org/10.1109/tkde.2022.3175536
+397	0.242	adjacent	0.00	0.00	0.25	0.00	PARSRec	2022	10	KDD		https://doi.org/10.1145/3534678.3539432
+398	0.242	adjacent	0.00	0.00	0.43	0.00	Hierarchical Transformer with Spatio-temporal Context Aggregation for Next Point-of-interest Recommendation	2023	34	ACM TOIS		https://doi.org/10.1145/3597930
+399	0.242	adjacent	0.00	0.25	0.12	0.00	Review-Enhanced Universal Sequence Representation Learning for Recommender Systems	2025	2	ACM TOIS		https://doi.org/10.1145/3717832
+400	0.241	adjacent	0.00	0.25	0.00	0.20	Multi-granularity Intent Modeling with Adversarial Robustness for Sequential Recommendation	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i17.38489
+401	0.241	adjacent	0.00	0.00	0.35	0.00	Explainable Session-based Recommendation with Meta-path Guided Instances and Self-Attention Mechanism	2022	23	SIGIR		https://doi.org/10.1145/3477495.3531895
+402	0.241	adjacent	0.00	0.00	0.42	0.00	”It Matches My Worldview”: Examining Perceptions and Attitudes Around Fake Videos	2022	37	ACM CHI		https://doi.org/10.1145/3491102.3517646
+403	0.240	adjacent	0.00	0.00	0.46	0.00	Graph Disentangled Contrastive Learning with Personalized Transfer for Cross-Domain Recommendation	2024	32	AAAI		https://doi.org/10.1609/aaai.v38i8.28723
+404	0.240	adjacent	0.00	0.00	0.34	0.00	Neutralizing Popularity Bias in Recommendation Models	2022	22	SIGIR		https://doi.org/10.1145/3477495.3531907
+405	0.240	adjacent	0.00	0.00	0.49	0.00	SIMPLE: Specialized Model-Sample Matching for Domain Generalization	2023	46	ICLR		https://www.semanticscholar.org/paper/dfcffa149b9f0f6b46be80e8ed331a2dd1102009
+406	0.240	adjacent	0.00	0.00	0.42	0.00	Popularity Bias in False-positive Metrics for Recommender Systems Evaluation	2021	39	ACM TOIS		https://doi.org/10.1145/3452740
+407	0.240	adjacent	0.00	0.00	0.42	0.00	A Novel Classifier Ensemble Method Based on Subspace Enhancement for High-Dimensional Data Classification	2021	39	IEEE TKDE		https://doi.org/10.1109/tkde.2021.3087517
+408	0.240	adjacent	0.00	0.00	0.23	0.00	Reproducing Popularity Bias in Recommendation: The Effect of Evaluation Strategies	2023	8	ACM RecSys		https://doi.org/10.1145/3637066
+409	0.239	adjacent	0.00	0.00	0.26	0.00	Meta-path automatically extracted from heterogeneous information network for recommendation	2024	10	TheWebConf / WWW		https://doi.org/10.1007/s11280-024-01265-4
+410	0.239	adjacent	0.00	0.00	0.26	0.00	Adaptive self-propagation graph convolutional network for recommendation	2023	11	TheWebConf / WWW		https://doi.org/10.1007/s11280-023-01182-y
+411	0.239	adjacent	0.00	0.00	0.00	0.60	SHARE: Synthesizing Heterogeneous Autism-support Records into Evidence-based Recommendations	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i48.42338
+412	0.238	adjacent	0.00	0.00	0.48	0.00	Revisiting Link Prediction: A Data Perspective	2023	44	ICLR		https://doi.org/10.48550/arXiv.2310.00793
+413	0.238	core	0.00	0.00	0.00	0.00	Diversity Based Edge Pruning of Neural Networks Using Determinantal Point Processes	2021	0	ICLR		https://openreview.net/pdf?id=rXH8XPsWPZ
+414	0.238	core	0.00	0.00	0.00	0.00	Probabilistic Generating Circuits	2021	0	ICML		https://dblp.uni-trier.de/db/conf/icml/icml2021.html#ZhangJB21
+415	0.238	core	0.00	0.00	0.00	0.00	ARMOURED: Adversarially Robust MOdels using Unlabeled data by REgularizing Diversity	2021	0	ICLR		https://openreview.net/pdf?id=JoCR4h9O3Ew
+416	0.238	adjacent	0.00	0.00	0.29	0.20	Improving Multimodal Social Media Popularity Prediction via Selective Retrieval Knowledge Augmentation	2025	10	AAAI		https://doi.org/10.1609/aaai.v39i1.32078
+417	0.237	adjacent	0.00	0.00	0.25	0.00	A novel robust memetic algorithm for dynamic community structures detection in complex networks	2024	9	TheWebConf / WWW		https://doi.org/10.1007/s11280-024-01238-7
+418	0.237	adjacent	0.00	0.00	0.40	0.00	Mitigating Popularity Bias for Users and Items with Fairness-centric Adaptive Recommendation	2022	32	ACM TOIS		https://doi.org/10.1145/3564286
+419	0.236	adjacent	0.00	0.25	0.12	0.00	Bagging-Expert Network for Multi-Task Learning: A Depolarization Solution in Multi-Gate Mixture-of-Experts	2025	2	AAAI		https://doi.org/10.1609/aaai.v39i21.34395
+420	0.235	adjacent	0.00	0.00	0.39	0.00	A Novel Algorithm for Efficiently Mining Spatial Multi-Level Co-Location Patterns	2024	23	IEEE TKDE		https://doi.org/10.1109/tkde.2024.3381178
+421	0.234	adjacent	0.00	0.00	0.23	0.00	AskMe: joint individual-level and community-level behavior interaction for question recommendation	2021	9	TheWebConf / WWW		https://doi.org/10.1007/s11280-021-00964-6
+422	0.234	adjacent	0.00	0.00	0.38	0.00	Next Point-of-Interest Recommendation With Adaptive Graph Contrastive Learning	2024	22	IEEE TKDE		https://doi.org/10.1109/tkde.2024.3509480
+423	0.234	adjacent	0.00	0.00	0.23	0.00	A novel semantic-aware search scheme based on BCI-tree index over encrypted cloud data	2023	8	TheWebConf / WWW		https://doi.org/10.1007/s11280-023-01176-w
+424	0.233	adjacent	0.00	0.00	0.38	0.00	Enhancing Drug Recommendations Via Heterogeneous Graph Representation Learning in EHR Networks	2023	25	IEEE TKDE		https://doi.org/10.1109/tkde.2023.3329025
+425	0.233	adjacent	0.00	0.00	0.26	0.00	Identification and prioritization of critical success factors of knowledge management implementation using a novel hybrid group decision-making model	2021	12	CIKM		https://doi.org/10.1108/vjikms-02-2021-0023
+426	0.232	adjacent	0.00	0.00	0.26	0.20	Dynamic Multi-Interest Graph Neural Network for Session-Based Recommendation	2025	8	AAAI		https://doi.org/10.1609/aaai.v39i12.33343
+427	0.232	adjacent	0.00	0.00	0.18	0.00	Learning Hierarchical Spatial Tasks with Visiting Relations for Next POI Recommendation	2023	5	ACM RecSys		https://doi.org/10.1145/3610584
+428	0.232	adjacent	0.00	0.00	0.37	0.00	SCPM-CR: A Novel Method for Spatial Co-Location Pattern Mining With Coupling Relation Consideration	2021	28	IEEE TKDE		https://doi.org/10.1109/tkde.2021.3060119
+429	0.231	adjacent	0.00	0.00	0.21	0.20	Learnable Model Augmentation Contrastive Learning for Sequential Recommendation	2023	7	IEEE TKDE		https://doi.org/10.1109/tkde.2023.3330426
+430	0.231	adjacent	0.00	0.00	0.29	0.20	Algorithmic Collective Action in Recommender Systems: Promoting Songs by Reordering Playlists	2024	12	NeurIPS		https://doi.org/10.48550/arXiv.2404.04269
+431	0.231	adjacent	0.00	0.00	0.21	0.20	SNDProb: A probabilistic approach for streaming novelty detection	2022	7	IEEE TKDE		https://doi.org/10.1109/tkde.2022.3169229
+432	0.230	adjacent	0.00	0.00	0.36	0.00	MvStHgL: Multi-View Hypergraph Learning with Spatial-Temporal Periodic Interests for Next POI Recommendation	2024	19	ACM TOIS		https://doi.org/10.1145/3664651
+433	0.230	adjacent	0.00	0.00	0.36	0.00	Bi-preference Learning Heterogeneous Hypergraph Networks for Session-based Recommendation	2023	22	ACM TOIS		https://doi.org/10.1145/3631940
+434	0.229	adjacent	0.00	0.00	0.20	0.00	A novel cross-network node pair embedding methodology for anchor link prediction	2023	6	TheWebConf / WWW		https://doi.org/10.1007/s11280-023-01154-2
+435	0.228	adjacent	0.00	0.25	0.07	0.00	Federated Binary Matrix Factorization Using Proximal Optimization	2025	1	AAAI		https://doi.org/10.1609/aaai.v39i15.33773
+436	0.228	adjacent	0.00	0.00	0.20	0.00	Semi-automated Literature Review for Scientific Assessment of Socioeconomic Climate Change Scenarios	2022	6	TheWebConf / WWW		https://doi.org/10.1145/3487553.3524659
+437	0.228	adjacent	0.00	0.00	0.42	0.00	Benchmarking and Analyzing 3D Human Pose and Shape Estimation Beyond Algorithms	2022	36	NeurIPS		https://doi.org/10.48550/arXiv.2209.10529
+438	0.227	adjacent	0.00	0.00	0.19	0.00	PopGR: Popularity reweighting for debiasing in group recommendation	2024	5	TheWebConf / WWW		https://doi.org/10.1007/s11280-024-01272-5
+439	0.227	adjacent	0.00	0.00	0.00	0.20	Towards Mitigating Unwanted Recommendations with Risk-Controlling Recommender Systems	2026	0	ACM RecSys		https://doi.org/10.1145/3816736
+440	0.227	adjacent	0.00	0.00	0.00	0.20	Self-Supervised Bot Play for Transcript-Free Conversational Critiquing with Rationales	2024	0	ACM RecSys		https://doi.org/10.1145/3665502
+441	0.227	adjacent	0.00	0.00	0.33	0.00	Zone-Enhanced Spatio-Temporal Representation Learning for Urban POI Recommendation	2023	19	IEEE TKDE		https://doi.org/10.1109/tkde.2023.3243239
+442	0.226	adjacent	0.00	0.00	0.33	0.00	Joint Gated Co-attention Based Multi-modal Networks for Subregion House Price Prediction	2021	22	IEEE TKDE		https://doi.org/10.1109/tkde.2021.3093881
+443	0.226	adjacent	0.00	0.00	0.14	0.00	SARDINE: Simulator for Automated Recommendation in Dynamic and Interactive Environments	2024	3	ACM RecSys		https://doi.org/10.1145/3656481
+444	0.226	adjacent	0.00	0.00	0.14	0.00	Improved paper recommendation model incorporating knowledge graph embedding with IRGAN model	2024	3	ACM RecSys		https://doi.org/10.1145/3710898
+445	0.225	adjacent	0.00	0.00	0.18	0.00	Light disentangled graph learning for social recommendation	2025	4	TheWebConf / WWW		https://doi.org/10.1007/s11280-025-01342-2
+446	0.225	adjacent	0.00	0.00	0.18	0.20	FairCDSR: Fairness-Aware Cross-Domain Sequential Recommendation via Multi-Interest Transfer and Contrastive Learning	2025	4	IEEE TKDE		https://doi.org/10.1109/tkde.2025.3582297
+447	0.225	adjacent	0.00	0.00	0.18	0.00	Fractal scaling laws for the dynamic evolution of sentiments in Never Let Me Go and their implications for writing, adaptation and reading of novels	2021	5	TheWebConf / WWW		https://doi.org/10.1007/s11280-021-00892-5
+448	0.224	adjacent	0.00	0.00	0.32	0.00	Adversarial Item Promotion on Visually-Aware Recommender Systems by Guided Diffusion	2024	15	ACM TOIS		https://doi.org/10.1145/3666088
+449	0.224	adjacent	0.00	0.00	0.17	0.00	Sequential-hierarchical attention network: Exploring the hierarchical intention feature in POI recommendation	2024	4	TheWebConf / WWW		https://doi.org/10.1007/s11280-024-01295-y
+450	0.223	adjacent	0.00	0.00	0.20	0.20	CasFT: Future Trend Modeling for Information Popularity Prediction with Dynamic Cues-Driven Diffusion Models	2025	5	AAAI		https://doi.org/10.1609/aaai.v39i11.33296
+451	0.223	adjacent	0.00	0.25	0.00	0.00	ERA: Meta Representation Alignment for Data Bias Mitigation in Recommendations	2026	0	ACM TOIS		https://doi.org/10.1145/3806832
+452	0.223	adjacent	0.00	0.25	0.00	0.00	EffiPOI: A Product Quantization Framework Based on Knowledge Distillation for Efficient POI Recommendations	2026	0	ACM TOIS		https://doi.org/10.1145/3789267
+453	0.223	adjacent	0.00	0.25	0.00	0.00	FocusKG: A Novel Multimodal Knowledge Graph Dataset With Temporal Information for Link Prediction	2026	0	IEEE TKDE		https://doi.org/10.1109/tkde.2026.3698924
+454	0.223	adjacent	0.00	0.00	0.16	0.20	Teach and Explore: A Multiplex Information-guided Effective and Efficient Reinforcement Learning for Sequential Recommendation	2023	4	ACM TOIS		https://doi.org/10.1145/3630003
+455	0.223	adjacent	0.00	0.00	0.31	0.00	MCN4Rec: Multi-level Collaborative Neural Network for Next Location Recommendation	2024	14	ACM TOIS		https://doi.org/10.1145/3643669
+456	0.222	adjacent	0.00	0.00	0.31	0.00	Semantic and Structural View Fusion Modeling for Social Recommendation	2022	17	IEEE TKDE		https://doi.org/10.1109/tkde.2022.3230972
+457	0.222	adjacent	0.00	0.00	0.20	0.00	RLMob	2022	6	WSDM		https://doi.org/10.1145/3488560.3498438
+458	0.222	adjacent	0.00	0.00	0.34	0.00	Degree Planning with PLAN-BERT: Multi-Semester Recommendation Using Future Courses of Interest	2021	24	AAAI		https://doi.org/10.1609/aaai.v35i17.17751
+459	0.222	adjacent	0.00	0.00	0.19	0.20	Modeling High-order Interactions across Multi-interests for Micro-video Reommendation (Student Abstract)	2021	6	AAAI		https://doi.org/10.1609/aaai.v35i18.17969
+460	0.222	adjacent	0.00	0.00	0.12	0.00	Unbiased Interest Modeling in Sequential Basket Analysis: Addressing Repetition Bias with Multi-Factor Estimation	2025	2	ACM RecSys		https://doi.org/10.1145/3718100
+461	0.221	adjacent	0.00	0.00	0.30	0.00	DeepAltTrip: Top-K Alternative Itineraries for Trip Recommendation	2023	15	IEEE TKDE		https://doi.org/10.1109/tkde.2023.3239595
+462	0.221	adjacent	0.00	0.00	0.34	0.00	Knowledge-Aware Explainable Reciprocal Recommendation	2024	17	AAAI		https://doi.org/10.1609/aaai.v38i8.28708
+463	0.221	adjacent	0.00	0.00	0.15	0.20	Causal Structure Representation Learning of Unobserved Confounders in Latent Space for Recommendation	2025	3	ACM TOIS		https://doi.org/10.1145/3731447
+464	0.221	adjacent	0.00	0.00	0.22	0.00	Denoising Time Cycle Modeling for Recommendation	2022	8	SIGIR		https://doi.org/10.1145/3477495.3531785
+465	0.221	adjacent	0.00	0.00	0.37	0.00	ContextGNN: Beyond Two-Tower Recommendation Systems	2024	21	ICLR		https://doi.org/10.48550/arXiv.2411.19513
+466	0.220	adjacent	0.00	0.00	0.14	0.00	Invariant representation learning to popularity distribution shift for recommendation	2024	3	TheWebConf / WWW		https://doi.org/10.1007/s11280-024-01242-x
+467	0.219	adjacent	0.00	0.00	0.29	0.00	Modeling Multiple Coexisting Category-Level Intentions for Next Item Recommendation	2021	15	ACM TOIS		https://doi.org/10.1145/3441642
+468	0.219	adjacent	0.00	0.00	0.14	0.00	Zebra: A novel method for optimizing text classification query in overload scenario	2022	3	TheWebConf / WWW		https://doi.org/10.1007/s11280-022-01061-y
+469	0.218	adjacent	0.00	0.00	0.28	0.00	A Multi-channel Next POI Recommendation Framework with Multi-granularity Check-in Signals	2023	13	ACM TOIS		https://doi.org/10.1145/3592789
+470	0.218	adjacent	0.00	0.00	0.32	0.00	REMIT: Reinforced Multi-Interest Transfer for Cross-Domain Recommendation	2023	17	AAAI		https://doi.org/10.1609/aaai.v37i8.26181
+471	0.217	adjacent	0.00	0.00	0.28	0.00	BGNN-XML: Bilateral Graph Neural Networks for Extreme Multi-label Text Classification	2022	13	IEEE TKDE		https://doi.org/10.1109/tkde.2022.3193657
+472	0.217	adjacent	0.00	0.25	0.00	0.00	Behavior Tokens Speak Louder: Disentangled Explainable Recommendation with Behavior Vocabulary	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i25.39252
+473	0.217	adjacent	0.00	0.25	0.00	0.00	MM4Rec: Multi-Source and Multi-Scenario Recommender for Unified User Preference	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i19.38655
+474	0.217	adjacent	0.00	0.25	0.00	0.00	Core Knowledge Learning Framework for Graph	2025	0	AAAI		https://doi.org/10.1609/aaai.v39i12.33438
+475	0.217	adjacent	0.00	0.00	0.16	0.20	Context Uncertainty in Contextual Bandits with Applications to Recommender Systems	2022	4	AAAI		https://doi.org/10.1609/aaai.v36i8.20831
+476	0.216	adjacent	0.00	0.00	0.12	0.00	A self-supervised graph-learning method for reliable-relation identification in social recommendation	2025	2	TheWebConf / WWW		https://doi.org/10.1007/s11280-025-01330-6
+477	0.216	adjacent	0.00	0.00	0.12	0.00	Integrating context and criteria: a multi-head attention-based approach for multi-criteria group recommender systems	2025	2	TheWebConf / WWW		https://doi.org/10.1007/s11280-025-01358-8
+478	0.216	adjacent	0.00	0.00	0.12	0.20	Explainable Recommendation with Simulated Human Feedback	2025	2	ACM TOIS		https://doi.org/10.1145/3758091
+479	0.216	adjacent	0.00	0.00	0.12	0.20	Causal Inference for Multi-Criteria Rating Recommender Systems	2025	2	ACM TOIS		https://doi.org/10.1145/3757737
+480	0.216	adjacent	0.00	0.00	0.12	0.20	HORAE: Temporal Multi-Interest Pre-training for Sequential Recommendation	2025	2	ACM TOIS		https://doi.org/10.1145/3727645
+481	0.215	adjacent	0.00	0.00	0.30	0.00	Factual and Informative Review Generation for Explainable Recommendation	2023	15	AAAI		https://doi.org/10.1609/aaai.v37i11.26618
+482	0.215	adjacent	0.00	0.00	0.26	0.00	Learning Hierarchical Preferences for Recommendation With Mixture Intention Neural Stochastic Processes	2024	10	IEEE TKDE		https://doi.org/10.1109/tkde.2023.3348493
+483	0.215	adjacent	0.00	0.00	0.00	0.40	Hyperbolic-Enhanced Mixture-of-Experts Mamba for Sequential Recommendation	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i18.38567
+484	0.215	adjacent	0.00	0.00	0.00	0.20	Information behaviour research: Global insights and African realities	2026	0	CIKM		https://doi.org/10.4314/iijikm.v16i2.3
+485	0.215	adjacent	0.00	0.00	0.00	0.40	Relative Advantage Debiasing for Watch-Time Prediction in Short-Video Recommendation	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i18.38555
+486	0.215	adjacent	0.00	0.00	0.00	0.40	DiMA: Distinguishing Resident and Tourist Preferences via Multi-Modal LLM Alignment for Out-of-Town Cross-Domain Recommendation	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i19.38663
+487	0.215	adjacent	0.00	0.00	0.00	0.20	Evaluation of Natural Language Processing Techniques for Information Retrieval	2024	0	CIKM		https://doi.org/10.47941/ejikm.1752
+488	0.215	adjacent	0.00	0.00	0.15	0.20	Multi-Modal Recommendation Unlearning for Legal, Licensing, and Modality Constraints	2025	3	AAAI		https://doi.org/10.1609/aaai.v39i12.33367
+489	0.215	adjacent	0.00	0.00	0.26	0.00	A Novel Probabilistic Label Enhancement Algorithm for Multi-Label Distribution Learning	2021	12	IEEE TKDE		https://doi.org/10.1109/tkde.2021.3054465
+490	0.215	adjacent	0.00	0.00	0.26	0.00	RatioRF: a novel measure for Random Forest clustering based on the Tversky's Ratio model	2021	12	IEEE TKDE		https://doi.org/10.1109/tkde.2021.3086147
+491	0.215	adjacent	0.00	0.00	0.11	0.20	A Framework for Elastic Adaptation of User Multiple Intents in Sequential Recommendation	2024	2	IEEE TKDE		https://doi.org/10.1109/tkde.2024.3354796
+492	0.215	adjacent	0.00	0.00	0.11	0.20	LTP-MMF: Toward Long-Term Provider Max-Min Fairness under Recommendation Feedback Loops	2024	2	ACM TOIS		https://doi.org/10.1145/3695867
+493	0.214	adjacent	0.00	0.00	0.07	0.00	Intention-sensitive Preference Learning Network for Personalized Session-based Recommendation	2025	1	ACM RecSys		https://doi.org/10.1145/3727647
+494	0.214	adjacent	0.00	0.00	0.26	0.00	A Survey on Side Information-Driven Session-Based Recommendation: From a Data-Centric Perspective	2025	8	IEEE TKDE		https://doi.org/10.1109/tkde.2025.3569549
+495	0.214	adjacent	0.00	0.00	0.26	0.00	MetaCAR: Cross-Domain Meta-Augmentation for Content-Aware Recommendation	2022	11	IEEE TKDE		https://doi.org/10.1109/tkde.2022.3209005
+496	0.214	adjacent	0.00	0.00	0.33	0.00	Self-Updatable Large Language Models by Integrating Context into Model Parameters	2024	16	ICLR		https://www.semanticscholar.org/paper/d24f2b7c7a6b356a7855430443fd4b468d73dc56
+497	0.214	adjacent	0.00	0.00	0.33	0.00	Taming the Long Tail in Human Mobility Prediction	2024	16	NeurIPS		https://doi.org/10.48550/arXiv.2410.14970
+498	0.213	adjacent	0.00	0.00	0.25	0.00	FASTER: A Dynamic Fairness-assurance Strategy for Session-based Recommender Systems	2023	10	ACM TOIS		https://doi.org/10.1145/3586993
+499	0.213	adjacent	0.00	0.00	0.25	0.00	Learning Region Similarities via Graph-Based Deep Metric Learning	2023	10	IEEE TKDE		https://doi.org/10.1109/tkde.2023.3253802
+500	0.213	adjacent	0.00	0.00	0.14	0.00	Combinatorial Bandits under Strategic Manipulations	2022	3	WSDM		https://doi.org/10.1145/3488560.3498413
+501	0.211	adjacent	0.00	0.00	0.16	0.00	The 10th International Workshop on News Recommendation and Analytics (INRA 2022)	2022	4	SIGIR		https://doi.org/10.1145/3477495.3531705
+502	0.210	adjacent	0.00	0.00	0.12	0.20	Intent Oriented Contrastive Learning for Sequential Recommendation	2025	2	AAAI		https://doi.org/10.1609/aaai.v39i12.33390
+503	0.208	adjacent	0.00	0.00	0.07	0.20	Large Language Model Can Interpret Latent Space of Sequential Recommender	2025	1	ACM TOIS		https://doi.org/10.1145/3786201
+504	0.208	adjacent	0.00	0.00	0.07	0.20	Large Language Models Meet Causal Inference: Semantic-Rich Dual Propensity Score for Sequential Recommendation	2025	1	IEEE TKDE		https://doi.org/10.1109/tkde.2025.3606149
+505	0.208	adjacent	0.00	0.00	0.29	0.00	Kernel Identification Through Transformers	2021	16	NeurIPS		https://www.semanticscholar.org/paper/f693643d3e8499e56452ac96d05318aae077c0e5
+506	0.205	adjacent	0.00	0.00	0.28	0.00	User-item fairness tradeoffs in recommendations	2024	11	NeurIPS		https://doi.org/10.48550/arXiv.2412.04466
+507	0.205	adjacent	0.00	0.00	0.20	0.00	A Novel Benford’s Law-Driven Approach for Detecting Machine-Generated Text	2025	5	ACM TOIS		https://doi.org/10.1145/3748305
+508	0.205	adjacent	0.00	0.00	0.20	0.00	MSDS: A Novel Framework for Multi-Source Data Selection Based Cross-Network Node Classification	2023	6	IEEE TKDE		https://doi.org/10.1109/tkde.2023.3277957
+509	0.203	adjacent	0.00	0.00	0.19	0.00	MF-GSLAE: A Multi-Factor User Representation Pre-Training Framework for Dual-Target Cross-Domain Recommendation	2024	5	ACM TOIS		https://doi.org/10.1145/3690382
+510	0.203	adjacent	0.00	0.00	0.19	0.00	TCKT: Tree-Based Cross-domain Knowledge Transfer for Next POI Cold-Start Recommendation	2024	5	ACM TOIS		https://doi.org/10.1145/3709137
+511	0.203	adjacent	0.00	0.00	0.00	0.00	Unifying Isolated Processes for Enhanced Multi-modal Recommendations Using a Graph Transformer	2025	0	ACM RecSys		https://doi.org/10.1145/3760762
+512	0.203	adjacent	0.00	0.00	0.00	0.00	Solving the Contextual Pure Cold-Start Problem under Uncertainty	2025	0	ACM RecSys		https://doi.org/10.1145/3729245
+513	0.203	adjacent	0.00	0.00	0.07	0.20	StyleTailor: Towards Personalized Fashion Styling via Hierarchical Negative Feedback	2026	1	AAAI		https://doi.org/10.1609/aaai.v40i35.40202
+514	0.202	adjacent	0.00	0.00	0.18	0.00	Establishing Design Consensus toward Next-Generation Retail: Data-Enabled Design Exploration and Participatory Analysis	2022	5	ACM CHI		https://doi.org/10.1145/3491102.3517637
+515	0.202	adjacent	0.00	0.00	0.18	0.00	Exploring Time-aware Multi-pattern Group Venue Recommendation in LBSNs	2022	5	ACM TOIS		https://doi.org/10.1145/3564280
+516	0.200	adjacent	0.00	0.00	0.24	0.00	Graph World Model	2025	7	ICML		https://doi.org/10.48550/arXiv.2507.10539
+517	0.197	adjacent	0.00	0.00	0.00	0.20	M $^{2}$ Rec: <u>M</u> ulti-scale <u>M</u> amba for Efficient Sequential <u>Rec</u> ommendation	2026	0	IEEE TKDE		https://doi.org/10.1109/tkde.2026.3700323
+518	0.197	adjacent	0.00	0.00	0.00	0.20	Smoothed Intent Learning for Sequential Recommendation	2026	0	ACM TOIS		https://doi.org/10.1145/3820247
+519	0.197	adjacent	0.00	0.00	0.00	0.00	Knowledge-aware recommendation system based on cohesive and collaborative enhanced contrastive learning	2025	0	TheWebConf / WWW		https://doi.org/10.1007/s11280-025-01396-2
+520	0.197	adjacent	0.00	0.00	0.00	0.20	Representation-Enhanced Cascading Multi-Level Interest Learning for Multi-Behavior Recommendation	2025	0	ACM TOIS		https://doi.org/10.1145/3786341
+521	0.197	adjacent	0.00	0.00	0.00	0.20	AutoSR: Automatic Sequential Recommendation System Design	2024	0	IEEE TKDE		https://doi.org/10.1109/tkde.2024.3400031
+522	0.197	adjacent	0.00	0.00	0.00	0.00	TSEE: a novel knowledge embedding framework for cyberspace security	2023	0	TheWebConf / WWW		https://doi.org/10.1007/s11280-023-01220-9
+523	0.197	adjacent	0.00	0.00	0.00	0.00	SciBiD: Novel Scientometrics and NoSQL-enabled Scalable and domain-specific Analysis of Big Scholar Data	2021	0	TheWebConf / WWW		https://doi.org/10.1145/3442442.3453544
+524	0.197	adjacent	0.00	0.00	0.15	0.00	Latent Factor Modeling With Expert Network for Multi-Behavior Recommendation	2025	3	IEEE TKDE		https://doi.org/10.1109/tkde.2025.3591503
+525	0.197	adjacent	0.00	0.00	0.15	0.00	User Invariant Preference Learning for Multi-Behavior Recommendation	2025	3	ACM TOIS		https://doi.org/10.1145/3728465
+526	0.197	adjacent	0.00	0.00	0.15	0.00	Bottlenecked Heterogeneous Graph Contrastive Learning for Robust Recommendation	2025	3	ACM TOIS		https://doi.org/10.1145/3750725
+527	0.196	adjacent	0.00	0.00	0.14	0.00	Can Perturbations Help Reduce Investment Risks? Risk-aware Stock Recommendation via Split Variational Adversarial Training	2024	3	ACM TOIS		https://doi.org/10.1145/3643131
+528	0.195	adjacent	0.00	0.00	0.14	0.00	Marching with the Pink Parade: Evaluating Visual Search Recommendations for Non-binary Clothing Items	2022	3	ACM CHI		https://doi.org/10.1145/3491101.3503572
+529	0.193	adjacent	0.00	0.00	0.20	0.00	Wyze Rule: Federated Rule Dataset for Rule Recommendation Benchmarking	2023	6	NeurIPS		https://www.semanticscholar.org/paper/df7ac450d951309e5b94d9c8a6cfb4d18699bbac
+530	0.192	adjacent	0.00	0.00	0.12	0.00	Independent or Social Driven Decision? A Counterfactual Refinement Strategy for Graph-Based Social Recommendation	2025	2	ACM TOIS		https://doi.org/10.1145/3717830
+531	0.192	adjacent	0.00	0.00	0.12	0.00	Dual-Adaptive Update Strategies-Enhanced Meta-Optimization for User Cold-Start Recommendation	2025	2	ACM TOIS		https://doi.org/10.1145/3746634
+532	0.191	adjacent	0.00	0.00	0.00	0.20	Semantic-Aware Data Augmentation for Sequential Recommendation	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i48.42328
+533	0.191	adjacent	0.00	0.00	0.00	0.00	Bibliotherapy Features in Children’s Literature: A Systematic Literature Review	2025	0	CIKM		https://doi.org/10.24191/jikm.v15i1.4592
+534	0.191	adjacent	0.00	0.00	0.15	0.00	Trust-GRS: A Trustworthy Training Framework for Graph Neural Network Based Recommender Systems Against Shilling Attacks	2025	3	AAAI		https://doi.org/10.1609/aaai.v39i12.33352
+535	0.190	adjacent	0.00	0.00	0.11	0.00	Efficient and Optimal Algorithms for Tree Summarization with Weighted Terminologies	2021	2	IEEE TKDE		https://doi.org/10.1109/tkde.2021.3120722
+536	0.189	adjacent	0.00	0.00	0.18	0.00	SIMPLEMIX: Frustratingly Simple Mixing of Off- and On-policy Data in Language Model Preference Learning	2025	4	ICML		https://doi.org/10.48550/arXiv.2505.02363
+537	0.186	adjacent	0.00	0.00	0.12	0.00	GenAL: Generative Agent for Adaptive Learning	2025	2	AAAI		https://doi.org/10.1609/aaai.v39i1.32038
+538	0.185	adjacent	0.00	0.00	0.11	0.00	Bayesian Inference with Complex Knowledge Graph Evidence	2024	2	AAAI		https://doi.org/10.1609/aaai.v38i18.30040
+539	0.184	adjacent	0.00	0.00	0.07	0.00	Graph-Structured Driven Dual Adaptation for Mitigating Popularity Bias	2025	1	IEEE TKDE		https://doi.org/10.1109/tkde.2025.3638343
+540	0.184	adjacent	0.00	0.00	0.07	0.00	GCTN: Graph Competitive Transfer Network for Cross-Domain Multi-Behavior Prediction	2025	1	IEEE TKDE		https://doi.org/10.1109/tkde.2025.3554610
+541	0.184	adjacent	0.00	0.00	0.07	0.00	Augmentation with Neighboring Information for Conversational Recommendation	2025	1	ACM TOIS		https://doi.org/10.1145/3712588
+542	0.184	adjacent	0.00	0.00	0.07	0.00	EIGA: A Novel Genetic Algorithm Based on Edge Information for Community Detection in Weighted Social Networks	2025	1	IEEE TKDE		https://doi.org/10.1109/tkde.2025.3619494
+543	0.184	adjacent	0.00	0.00	0.11	0.00	Disposable Linear Bandits for Online Recommendations	2021	2	AAAI		https://doi.org/10.1609/aaai.v35i5.16540
+544	0.184	adjacent	0.00	0.00	0.07	0.00	A Novel Key Point Based MLCS Algorithm for Big Sequences Mining	2024	1	IEEE TKDE		https://doi.org/10.1109/tkde.2024.3485234
+545	0.183	adjacent	0.00	0.00	0.14	0.00	Multi-Task Differential Privacy Under Distribution Skew	2023	3	ICML		https://doi.org/10.48550/arXiv.2302.07975
+546	0.178	adjacent	0.00	0.00	0.07	0.00	POI Recommendation via Multi-Objective Adversarial Imitation Learning	2025	1	AAAI		https://doi.org/10.1609/aaai.v39i12.33382
+547	0.178	adjacent	0.00	0.00	0.07	0.00	GeoMamba: Towards Multi-granular POI Recommendation with Geographical State Space Model	2025	1	AAAI		https://doi.org/10.1609/aaai.v39i12.33360
+548	0.173	adjacent	0.00	0.00	0.00	0.00	ProitMTA: A Multi-Target Model Poisoning Attack Framework for Federated Recommendation Systems With Proxy Items	2026	0	IEEE TKDE		https://doi.org/10.1109/tkde.2026.3678755
+549	0.173	adjacent	0.00	0.00	0.00	0.00	Caf4AVC: LLM-Enhanced Collaborative Framework for Attribute Value Canonicalization in Open KBs	2026	0	IEEE TKDE		https://doi.org/10.1109/tkde.2026.3702048
+550	0.173	adjacent	0.00	0.00	0.00	0.00	Nuanced Differences, Profound Impact: A Comparative Learning-Enhanced Knowledge Graph Recommender for Expert Identification in Specialized Medical Fields	2026	0	ACM TOIS		https://doi.org/10.1145/3797873
+551	0.173	adjacent	0.00	0.00	0.00	0.00	Double Enhancement Framework for Long-Tail Recommendation	2026	0	IEEE TKDE		https://doi.org/10.1109/tkde.2026.3671215
+552	0.173	adjacent	0.00	0.00	0.00	0.00	Knowledge Graph-based Debiasing for Trustworthy Recommendation Systems	2026	0	IEEE TKDE		https://doi.org/10.1109/tkde.2026.3702349
+553	0.173	adjacent	0.00	0.00	0.00	0.00	M4Rec: Multi-Modal Knowledge Graph Modeling of Multi-Dimensional User Preferences for Next-POI Recommendation	2026	0	IEEE TKDE		https://doi.org/10.1109/tkde.2026.3677245
+554	0.173	adjacent	0.00	0.00	0.00	0.00	Multi-Relation Enhanced Dynamic Hypergraph for Session-based Recommendation	2025	0	ACM TOIS		https://doi.org/10.1145/3779422
+555	0.173	adjacent	0.00	0.00	0.00	0.00	A3BRec: A Novel Association-Integration Sequential Basket Recommendation	2025	0	IEEE TKDE		https://doi.org/10.1109/tkde.2025.3630571
+556	0.173	adjacent	0.00	0.00	0.00	0.00	1HIkDA: A Novel Privacy Preserving Framework for Graph Data Publication	2025	0	IEEE TKDE		https://doi.org/10.1109/tkde.2025.3621678
+557	0.167	adjacent	0.00	0.00	0.00	0.00	VBF++: Variational Bayesian Fusion with Context-Aware Priors and Recommendation-Guided Adversarial Refinement for Multimodal Video Recommendation	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i17.38469
+558	0.167	adjacent	0.00	0.00	0.00	0.00	Federated Vision-Language-Recommendation with Personalized Fusion	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i28.39503
+559	0.167	adjacent	0.00	0.00	0.00	0.00	Bidirectional Counterfactual Distillation for Review-Based Recommendation	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i18.38598
+560	0.167	adjacent	0.00	0.00	0.00	0.00	Multifaceted Scenario-Aware Hypergraph Learning for Next POI Recommendation	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i18.38552
+561	0.167	adjacent	0.00	0.00	0.00	0.00	Multi-Aspect Cross-modal Quantization for Generative Recommendation	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i19.38664
+562	0.167	adjacent	0.00	0.00	0.00	0.00	UNO! UNified Offline Training Paradigm for Learning Path Recommendation	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i18.38591
+563	0.167	adjacent	0.00	0.00	0.00	0.00	Multi-Granular Graph Learning with Fine-Grained Behavioral Pattern Awareness for Session-Based Recommendation	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i27.39468
+564	0.167	adjacent	0.00	0.00	0.00	0.00	NP-MiSR: Neural Process-based Multi-Interest Learning for Session-Based Recommendation	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i17.38463
+565	0.167	adjacent	0.00	0.00	0.00	0.00	Membership Inference Attack Against Large Language Model-Based Recommendation Systems: A New Distillation-Based Paradigm	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i27.39449
+566	0.167	adjacent	0.00	0.00	0.00	0.00	Tokenize Once, Recommend Anywhere: Unified Item Tokenization for Multi-domain LLM-based Recommendation	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i17.38505
+567	0.167	adjacent	0.00	0.00	0.00	0.00	MultiTab: A Scalable Foundation for Multitask Learning on Tabular Data	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i30.39745
+568	0.167	adjacent	0.00	0.00	0.00	0.00	Conceptualisation and Implementation of Human-centric Privacy Preserving Framework for Explainable AI	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i48.42140
+569	0.167	adjacent	0.00	0.00	0.00	0.00	LLM4Sweat: A Trustworthy Large Language Model for Hyperhidrosis Support	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i47.41471
+570	0.167	adjacent	0.00	0.00	0.00	0.00	NumCoKE: Ordinal-Aware Numerical Reasoning over Knowledge Graphs with Mixture-of-Experts and Contrastive Learning	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i19.38653
+571	0.167	adjacent	0.00	0.00	0.00	0.00	Interest-driven Deep Multi-modal Clustering	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i34.40167
+572	0.167	adjacent	0.00	0.00	0.00	0.00	Multi-graph Fusion Cross-model Contrastive Learning for Recommendation	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i18.38580
+573	0.167	adjacent	0.00	0.00	0.00	0.00	Explicit Intent-Enhanced Knowledge Distillation for Trip Recommendation	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i2.37090
+574	0.167	adjacent	0.00	0.00	0.00	0.00	Auto Encoding Neural Process for Multi-interest Recommendation	2025	0	AAAI		https://doi.org/10.1609/aaai.v39i11.33293
+575	0.167	adjacent	0.00	0.00	0.00	0.00	When Should We Prefer State-to-Visual DAgger over Visual Reinforcement Learning?	2025	0	AAAI		https://doi.org/10.1609/aaai.v39i14.33604
+576	0.167	adjacent	0.00	0.00	0.00	0.00	Alleviating Dual Biases in Recommendation (Student Abstract)	2025	0	AAAI		https://doi.org/10.1609/aaai.v39i28.35273
+577	0.167	adjacent	0.00	0.00	0.00	0.00	ScoreNet: Consistency-driven Framework with Multi-side Information Fusion for Session-based Recommendation	2025	0	AAAI		https://doi.org/10.1609/aaai.v39i12.33381
+578	0.161	adjacent	0.00	0.00	0.00	0.00	AuTGeLy: Automatic Title Generator based on Song Lyrics Extractions	2021	0	ICML		https://doi.org/10.1109/icmla52953.2021.00254
+579	0.126	weak	0.00	0.00	0.25	0.00	Ready Player One! Eliciting Diverse Knowledge Using A Configurable Game	2022	10	TheWebConf / WWW		https://doi.org/10.1145/3485447.3512241
+580	0.088	weak	0.00	0.00	0.16	0.00	Dynamically Optimizing Display Advertising Profits under Diverse Budget Settings	2021	4	IEEE TKDE		https://doi.org/10.1109/tkde.2021.3077699
+581	0.087	weak	0.00	0.00	0.00	0.00	Capturing Diverse and Precise Reactions to a Comment with User-Generated Labels	2022	0	TheWebConf / WWW		https://doi.org/10.1145/3485447.3512243
+582	0.074	weak	0.00	0.00	0.07	0.00	MSC-DOLES: Multi-View Subspace Clustering in Diverse Orthogonal Latent Embedding Spaces	2025	1	IEEE TKDE		https://doi.org/10.1109/tkde.2025.3610659
+583	0.057	weak	0.00	0.00	0.00	0.00	PosPrune: Visual Token Pruning with Positional Bias Correction for Efficient Large Vision-Language Models	2026	0	AAAI		https://doi.org/10.1609/aaai.v40i13.38020

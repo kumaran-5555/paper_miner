@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Caches written next to config.yaml at runtime
+sources_cache.json
+results_cache.json
+
+# Run logs
+run.log
+*.log
+
+# Editor / OS cruft
+.vscode/
+.idea/
+.DS_Store
+
+# Scratch duplicates (e.g. "papers copy 2.tsv")
+* copy*.tsv
+*.bak
+
+# By default, ignore freshly mined outputs so contributors don't commit large
+# data dumps. A curated sample under output/ is force-added below.
+output/*
+!output/.gitkeep
+!output/papers.tsv
+!output/papers.json
+!output/papers_ranked.tsv
+!output/diversity_audit.md
