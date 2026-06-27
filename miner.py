@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 """
-Recommendation-Diversity Paper Mining Pipeline
-==============================================
+Paper Miner — a configurable academic paper-mining pipeline
+===========================================================
 
-Mines papers about *diversity in recommender systems* from OpenAlex, restricted
-to a curated set of important venues and to a recent year range, then writes the
-results to TSV + JSON.
+Mines research papers on ANY topic from OpenAlex (and, optionally, Semantic
+Scholar), restricted to a curated set of important venues and a recent year
+range, then writes the results to TSV + JSON.
+
+The behavior is entirely config-driven (`config.yaml`): set your keywords,
+venues, and year range to build a focused, venue-curated reading list for any
+field. The shipped default config targets *diversity in recommender systems* as
+a worked example — swap the keywords/venues to mine your own topic.
 
 Strategy
 --------
@@ -630,7 +635,7 @@ def run(cfg: Dict[str, Any], args: argparse.Namespace, cache_path: str) -> List[
     allowed_types = set(t.lower() for t in filters.get("allowed_types", []))
 
     session = requests.Session()
-    session.headers.update({"User-Agent": "recsys-diversity-miner/1.1"})
+    session.headers.update({"User-Agent": "paper-miner/1.1 (+https://github.com)"})
 
     id_to_name: Dict[str, str] = {}
     venue_ids: Dict[str, List[str]] = {}
@@ -824,7 +829,7 @@ def write_json(records: List[Dict[str, Any]], path: str) -> None:
 # CLI
 # ---------------------------------------------------------------------------
 def parse_args(argv: Optional[List[str]] = None) -> argparse.Namespace:
-    p = argparse.ArgumentParser(description="Mine recommendation-diversity papers from OpenAlex.")
+    p = argparse.ArgumentParser(description="Paper Miner — mine research papers on any topic from OpenAlex + Semantic Scholar.")
     p.add_argument("--config", default="config.yaml", help="Path to config YAML (default: config.yaml)")
     p.add_argument("--limit", type=int, default=None, help="Cap total papers in output (quick test)")
     p.add_argument("--output-dir", default=None, help="Override output directory")

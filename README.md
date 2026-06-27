@@ -1,73 +1,65 @@
-# Paper Miner — Recommendation-Diversity Edition
+# Paper Miner
 
-A small, configurable Python pipeline that mines academic papers on a topic from
-[OpenAlex](https://openalex.org) and [Semantic Scholar](https://www.semanticscholar.org),
-restricted to a curated set of important venues and a recent year range, then
-writes clean, analysis-ready **TSV + JSON**.
+**A configurable research-paper mining pipeline — build focused, venue-curated reading lists on any topic from [OpenAlex](https://openalex.org) + [Semantic Scholar](https://www.semanticscholar.org).**
 
-It ships preconfigured to mine **diversity in recommender systems**, but it is
-fully topic-agnostic — change the keywords and venues in `config.yaml` and it
-will mine any field (LLM safety, graph learning, ranking, etc.).
+![Python](https://img.shields.io/badge/python-3.9%2B-blue)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
+![Dependencies](https://img.shields.io/badge/deps-requests%20%2B%20PyYAML-lightgrey)
+![API key](https://img.shields.io/badge/API%20key-not%20required-success)
 
-- **No API key required** (OpenAlex + Semantic Scholar both have free tiers).
-- **Budget-tolerant**: per-query caching lets a large mine resume across daily
-  rate-limit windows without losing data.
-- **Precision-focused**: server-side venue filtering and per-group match scopes
-  keep noise out.
+Point it at a topic — *LLM evaluation, graph neural networks, recommender
+systems, RLHF, anything* — and it returns a clean, de-duplicated, analysis-ready
+**TSV + JSON** of the relevant papers from the venues you care about. It's a
+lightweight tool for **automated literature review**, **systematic literature
+search**, and **building a reading list** without paywalls or API keys.
 
-> Want to see what the output is good for? `output/diversity_audit.md` is a
-> worked example: a ranked, tiered reading list distilled from a real run.
+> 🔎 Mine any field by editing one file (`config.yaml`). The repo ships with a
+> working example config for *diversity in recommender systems*; swap the
+> keywords to make it yours. See `output/diversity_audit.md` for an example of
+> what you can build on top of the data.
 
 ---
 
+## Why Paper Miner?
+
+- **Topic-agnostic & config-driven** — no code changes to mine a new field; just
+  edit keywords + venues in `config.yaml`.
+- **No API key required** — uses the free tiers of OpenAlex and Semantic Scholar.
+- **Venue-curated & precise** — whitelist the conferences/journals that matter
+  (e.g. NeurIPS, SIGIR, KDD, ACL) and filter **server-side** so results stay
+  on-topic, not a noisy keyword dump.
+- **Two sources, merged & de-duplicated** — OpenAlex for breadth, Semantic
+  Scholar for the ML conferences OpenAlex under-indexes (NeurIPS / ICML / ICLR).
+- **Budget-tolerant & resumable** — per-query caching lets a large mine resume
+  across daily rate-limit windows without losing data.
+- **Rich, structured output** — citations, abstracts, affiliations (with an
+  industry/company signal), open-access PDFs, topics, and more — ready for
+  pandas, a spreadsheet, or an LLM.
+
+## Who is this for?
+
+- **Researchers & students** running a literature review or staying current in a
+  field.
+- **Engineers & applied scientists** scouting productionizable ideas from recent
+  top-venue papers.
+- **Research/ML teams** building curated, refreshable reading lists or paper
+  digests.
+- **Anyone** who wants a reproducible, scriptable alternative to manually
+  searching Google Scholar.
+
 ## Table of contents
 
-- [Features](#features)
-- [Project structure](#project-structure)
 - [Quick start](#quick-start)
+- [Configure it for your own topic](#configure-it-for-your-own-topic)
 - [Usage](#usage)
 - [Configuration reference](#configuration-reference)
 - [Output schema](#output-schema)
 - [Design](#design)
 - [Caching & resumable runs](#caching--resumable-runs)
 - [Troubleshooting](#troubleshooting)
+- [Suggested GitHub topics](#suggested-github-topics)
 - [Contributing](#contributing)
 - [License](#license)
-
----
-
-## Features
-
-- **Two data sources, merged & de-duplicated** — OpenAlex (primary) plus
-  Semantic Scholar for the ML conferences OpenAlex under-indexes (NeurIPS / ICML
-  / ICLR). Records are merged by DOI/title and tagged with their `source`.
-- **Curated venue whitelist** — resolve venue names to OpenAlex source IDs once,
-  then filter **server-side** so each query stays small and fast.
-- **Per-group match scopes** — match long, specific phrases in title+abstract
-  everywhere, while restricting noisy single words (`novel`, `diverse`) to
-  titles at recsys/IR venues only.
-- **Abstract reconstruction** — rebuilds full abstracts from OpenAlex's inverted
-  index and extracts a short description.
-- **Resumable** — succeeded queries are cached; throttled queries are retried on
-  the next run; output is the union, so a partial run never shrinks the dataset.
-
-## Project structure
-
-```
-paper_miner/
-├── miner.py             # the pipeline (single file, no package needed)
-├── config.yaml          # all tuning: years, keywords, venues, filters, output
-├── requirements.txt     # requests + PyYAML
-├── README.md            # this file
-├── DESIGN.md            # architecture & data-flow deep dive
-├── LICENSE              # MIT
-├── output/              # generated TSV/JSON (+ a committed sample)
-│   ├── papers.tsv       # sample mined dataset
-│   ├── papers.json      # sample (includes full abstracts)
-│   └── diversity_audit.md  # example downstream analysis
-├── sources_cache.json   # venue -> OpenAlex source-ID cache (generated, gitignored)
-└── results_cache.json   # per-query results cache (generated, gitignored)
-```
 
 ## Quick start
 
@@ -93,6 +85,40 @@ python miner.py --limit 50
 ```
 
 Outputs land in `output/papers.tsv` and `output/papers.json`.
+
+## Configure it for your own topic
+
+Mining a different field takes ~2 minutes — edit `config.yaml`:
+
+1. **Set the keywords** under `query.keyword_groups`. Use specific phrases for
+   precision, e.g. for retrieval-augmented generation:
+   ```yaml
+   query:
+     keyword_groups:
+       - scope: title_and_abstract
+         keywords:
+           - "retrieval augmented generation"
+           - "retrieval-augmented generation"
+           - "RAG large language model"
+           - "dense passage retrieval"
+   ```
+2. **Pick your venues** under `venues` (and the optional `semantic_scholar`
+   section for NeurIPS/ICML/ICLR). Each venue maps a label to lowercase
+   substrings found in the OpenAlex venue name, e.g.:
+   ```yaml
+   venues:
+     - name: "ACL"
+       patterns: ["annual meeting of the association for computational linguistics"]
+     - name: "EMNLP"
+       patterns: ["empirical methods in natural language processing"]
+   ```
+3. **Set the year range** under `query.from_year` / `to_year`.
+4. Re-resolve venues and run:
+   ```bash
+   python miner.py --refresh-sources
+   ```
+
+That's it — no code changes.
 
 ## Usage
 
@@ -138,7 +164,7 @@ Per-group fields:
   `fulltext` (broadest, noisiest).
 - `venues` *(optional)*: restrict this group to specific curated venue names;
   omit to search all venues. Use this to keep generic words (`novel`, `diverse`)
-  from matching unrelated papers in general-AI venues.
+  from matching unrelated papers in broad venues.
 - `keywords`: phrases passed to the source's phrase search.
 
 > The legacy single-group form (`query.keywords` + `query.search_scope`) is still
@@ -186,7 +212,7 @@ One row per unique paper. The TSV contains all columns below except
 | Field | Description |
 |-------|-------------|
 | `link` | DOI link (or landing page) to the paper |
-| `venue` | Curated venue label (e.g. *ACM RecSys*, *SIGIR*) |
+| `venue` | Curated venue label (e.g. *NeurIPS*, *SIGIR*) |
 | `year` | Publication year |
 | `citations` | Citation count (`cited_by_count`) |
 | `description` | First few abstract sentences |
@@ -206,10 +232,10 @@ One row per unique paper. The TSV contains all columns below except
 
 ## Design
 
-The pipeline is a single file (`miner.py`) organized as a linear,
-cache-backed flow: **resolve venues → query each keyword → extract & filter →
-merge/dedup → write**. For the full architecture, data-flow diagram, caching
-model, and extension points, see **[DESIGN.md](DESIGN.md)**.
+The pipeline is a single file (`miner.py`) organized as a linear, cache-backed
+flow: **resolve venues → query each keyword → extract & filter → merge/dedup →
+write**. For the full architecture, data-flow diagram, caching model, and
+extension points, see **[DESIGN.md](DESIGN.md)**.
 
 ## Caching & resumable runs
 
@@ -257,11 +283,30 @@ midnight UTC**. The run aborts gracefully (it never sleeps for hours) and logs
 Expected — the S2 bulk endpoint omits affiliations. Disable S2 with
 `semantic_scholar.enabled: false` if you only need OpenAlex.
 
+## Suggested GitHub topics
+
+To help others discover this when they search GitHub, add these **topics** in
+your repo settings (Repo → About → ⚙️ → Topics):
+
+```
+research-papers  literature-review  systematic-literature-review
+openalex  semantic-scholar  academic-search  paper-scraper
+citation-analysis  bibliometrics  reading-list  research-tools
+scholarly  paper-mining  python
+```
+
+Recommended repo **description** (Repo → About):
+
+> Configurable pipeline to mine research papers on any topic from OpenAlex &
+> Semantic Scholar — venue-curated, no API key, resumable. For literature
+> reviews and reading lists.
+
 ## Contributing
 
 Issues and PRs welcome. The whole pipeline is one readable file; good first
 contributions include adding venues, new output formats (CSV/Parquet), or
-additional data sources behind the same merge/dedup interface (see DESIGN.md).
+additional data sources behind the same merge/dedup interface (see
+[DESIGN.md](DESIGN.md)).
 
 When proposing changes, please keep the single-file, dependency-light design and
 run a `--limit 50` smoke test before submitting.

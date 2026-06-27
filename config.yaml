@@ -1,9 +1,14 @@
 # =============================================================================
-# Recommendation-Diversity Paper Mining — configuration
+# Paper Miner — configuration
 # =============================================================================
-# Data source: OpenAlex (https://openalex.org) — free, no API key required.
-# Edit this file to change the year range, keywords, venues, and filters,
-# then re-run:  python miner.py --config config.yaml
+# Data sources: OpenAlex (https://openalex.org) + Semantic Scholar — both free,
+# no API key required. This file is the ONLY thing you edit to mine a new topic:
+# change the year range, keywords, and venues below, then run:
+#     python miner.py --config config.yaml
+#
+# The default config below targets "diversity in recommender systems" as a
+# worked example. To mine your own topic, replace the keywords (and, if needed,
+# the curated `venues` list) with terms for your field.
 # =============================================================================
 
 query:
