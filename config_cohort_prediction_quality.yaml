@@ -1,0 +1,202 @@
+# =============================================================================
+# Paper Miner — configuration
+# =============================================================================
+# Data sources: OpenAlex (https://openalex.org) + Semantic Scholar — both free,
+# no API key required. This file is the ONLY thing you edit to mine a new topic:
+# change the year range, keywords, and venues below, then run:
+#     python miner.py --config config_cohort_prediction_quality.yaml
+#
+# Focus: MODEL PREDICTION QUALITY across USER-ITEM COHORTS — measuring and
+# closing per-cohort / per-slice / per-subgroup metric gaps (NE, AUC,
+# calibration error) in recommendation and CTR/CVR prediction. Covers slice /
+# subgroup evaluation, calibration disparities across segments, worst-group /
+# group-DRO style robust optimization, and accuracy-fairness across cohorts.
+# Companion to the diversity config.
+# =============================================================================
+
+query:
+  # Inclusive year range. "last 5 years" relative to 2026.
+  from_year: 2021
+  to_year: 2026
+
+  # Keyword groups, each with its own match scope. A paper is kept if it
+  # matches ANY keyword in ANY group (logical OR across everything).
+  #   scope: title              -> match in the TITLE only (most precise)
+  #          title_and_abstract -> match in title or abstract (balanced)
+  #          fulltext           -> broadest (OpenAlex generic search, noisier)
+  keyword_groups:
+    - scope: title_and_abstract
+      keywords:
+        # --- Core: per-cohort / per-slice prediction-quality gaps ---
+        - "subgroup performance recommendation"
+        - "cohort performance recommendation"
+        - "slice-based evaluation recommendation"
+        - "slice discovery model performance"
+        - "performance disparity recommendation"
+        - "accuracy disparity click-through rate prediction"
+        - "subpopulation performance machine learning"
+        - "underperforming subgroup model"
+        - "error analysis subgroup model"
+        # --- Calibration gaps across cohorts / segments ---
+        - "calibration across subgroups"
+        - "group calibration error"
+        - "subgroup calibration recommendation"
+        - "multicalibration"
+        - "calibration disparity prediction"
+        - "segment-level calibration CTR"
+        # --- AUC / NE / loss disparities across cohorts ---
+        - "AUC disparity subgroup prediction"
+        - "per-cohort AUC recommendation"
+        - "normalized entropy cohort prediction"
+        - "log loss subgroup prediction"
+        - "ranking quality across user groups"
+        # --- Methods that close cohort gaps ---
+        - "group distributionally robust optimization"
+        - "worst-group accuracy"
+        - "distributionally robust recommendation"
+        - "robust optimization subpopulation shift"
+        - "subpopulation shift recommendation"
+        - "fairness accuracy recommendation"
+        - "performance fairness recommendation"
+        - "multi-task recommendation cohort"
+        - "cohort-aware recommendation model"
+        - "user segment CTR prediction"
+
+    - scope: title
+      # Single broad words are noisy in general-AI venues (AAAI/NeurIPS/ICML/
+      # ICLR/IJCAI), where "subgroup"/"calibration"/"robust" are generic.
+      # Restrict this group to recsys/IR/data-mining venues so a title match
+      # actually signals a recommendation cohort prediction-quality paper.
+      venues:
+        - "ACM RecSys"
+        - "ACM TORS"
+        - "ACM TOIS"
+        - "SIGIR"
+        - "WSDM"
+        - "CIKM"
+        - "ECIR"
+        - "UMAP"
+        - "TheWebConf / WWW"
+        - "IEEE TKDE"
+        - "KDD"
+      keywords:
+        - "subgroup"
+        - "cohort"
+        - "slice"
+        - "subpopulation"
+        - "calibration"
+        - "disparity"
+        - "worst-group"
+        - "CTR prediction"
+
+openalex:
+  base_url: "https://api.openalex.org/works"
+  # Email puts you in OpenAlex's faster, more reliable "polite pool".
+  # Replace with your own address (any valid email works).
+  mailto: "you@example.com"
+  # Optional OpenAlex premium API key for higher daily budget. Leave blank to
+  # use the free tier (small daily budget, resets at midnight UTC).
+  # Get one at https://openalex.org/pricing
+  api_key: ""
+  per_page: 200            # OpenAlex max page size
+  max_records_per_keyword: 2000   # safety cap per keyword query
+  request_delay_seconds: 0.2      # politeness delay between API calls
+  max_retries: 6
+
+# Supplementary source for ML conferences that OpenAlex under-indexes
+# (NeurIPS/ICML/ICLR — their OpenAlex sources hold only a few thousand works).
+# Uses Semantic Scholar's bulk search API (free; optional api_key for higher limits).
+semantic_scholar:
+  enabled: true
+  base_url: "https://api.semanticscholar.org/graph/v1/paper/search/bulk"
+  api_key: ""                      # optional S2 key (sent as x-api-key header)
+  request_delay_seconds: 1.0
+  max_retries: 5
+  max_records_per_keyword: 1000
+  # Venues to mine. `s2_names` are sent to the S2 `venue` filter (multiple
+  # spellings improve recall); `match` are lowercase substrings used to verify
+  # the returned venue; `exclude` guards against near-name collisions (ICMLA).
+  venues:
+    - name: "NeurIPS"
+      s2_names: ["NeurIPS", "Neural Information Processing Systems"]
+      match: ["neural information processing systems", "neurips"]
+    - name: "ICML"
+      s2_names: ["ICML", "International Conference on Machine Learning"]
+      match: ["international conference on machine learning", "icml"]
+      exclude: ["applications"]   # avoid ICMLA
+    - name: "ICLR"
+      s2_names: ["ICLR", "International Conference on Learning Representations"]
+      match: ["international conference on learning representations", "iclr"]
+  # General-ML venues hold the core methods (group-DRO, multicalibration). Mix
+  # method terms with recommendation-qualified terms to capture both the
+  # foundational ML work and its recsys applications.
+  keywords:
+    - "group distributionally robust optimization"
+    - "worst-group accuracy"
+    - "multicalibration"
+    - "subpopulation shift"
+    - "calibration across subgroups"
+    - "subgroup performance recommendation"
+    - "cohort recommendation prediction"
+    - "distributionally robust recommendation"
+    - "fairness accuracy recommendation"
+    - "slice-based learning"
+
+filters:
+  # Keep only papers published at the curated "important venues" below.
+  # Set to false to keep everything the keyword search returns.
+  require_venue_match: true
+  min_citations: 0
+  # Drop obvious non-papers (errata, editorials, etc.).
+  allowed_types:
+    - article
+    - proceedings-article
+    - book-chapter
+
+# Curated set of important venues for recommender systems / IR / ML / web.
+# `patterns` are lowercase substrings matched against the OpenAlex venue name.
+# They are intentionally specific to avoid false positives.
+venues:
+  - name: "ACM RecSys"
+    patterns: ["recommender systems"]
+  - name: "SIGIR"
+    patterns: ["research and development in information retrieval", "sigir"]
+  - name: "KDD"
+    patterns: ["knowledge discovery and data mining"]
+  - name: "TheWebConf / WWW"
+    patterns: ["web conference", "world wide web"]
+  - name: "WSDM"
+    patterns: ["web search and data mining"]
+  - name: "CIKM"
+    patterns: ["information and knowledge management"]
+  - name: "ECIR"
+    patterns: ["advances in information retrieval", "european conference on information retrieval"]
+  - name: "UMAP"
+    patterns: ["user modeling, adaptation", "user modelling, adaptation"]
+  - name: "NeurIPS"
+    patterns: ["neural information processing systems"]
+  - name: "ICML"
+    patterns: ["international conference on machine learning"]
+  - name: "ICLR"
+    patterns: ["international conference on learning representations"]
+  - name: "AAAI"
+    patterns: ["aaai conference on artificial intelligence"]
+  - name: "IJCAI"
+    patterns: ["international joint conference on artificial intelligence"]
+  - name: "ACM TOIS"
+    patterns: ["transactions on information systems"]
+  - name: "ACM TORS"
+    patterns: ["transactions on recommender systems"]
+  - name: "IEEE TKDE"
+    patterns: ["transactions on knowledge and data engineering"]
+  - name: "ACM CHI"
+    patterns: ["human factors in computing systems"]
+
+output:
+  dir: "./output_cohort_prediction_quality"
+  tsv: "papers.tsv"
+  json: "papers.json"
+  # Number of leading abstract sentences used for the short description column.
+  description_sentences: 5
+  # De-duplicate papers that match multiple keywords.
+  dedupe: true
